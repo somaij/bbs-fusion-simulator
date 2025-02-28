@@ -546,6 +546,39 @@
 			width: 25px;
 			object-fit: contain;
 		}
+		@media screen and (max-width:991px){
+			#commands-wrapper{
+				flex-direction: column;
+				gap:0;
+			}
+			#command-list-wrapper{
+				margin-top: -3rem;
+			}
+			#meld-menu, #command-list-wrapper{
+				width: 100%;
+			}
+			#meld-menu .content{
+				padding:1rem 4rem 4rem 1rem;
+			}
+			#meld-menu::before, #command-list-wrapper{
+				clip-path: polygon(25% 0%, 33.7% 48px, 100% 48px, 100% 100%, 33% 100%, 25.1% calc(100% - 48px), 0% calc(100% - 48px), 0% 0%);
+			}
+			#meld-menu .content::after{
+				top: unset;
+				right: 0;
+				left: 0;
+				margin: auto;
+				transform: rotate(90deg);
+			}
+			#meld-menu h2, #command-list-wrapper h2{
+				font-size:1.3rem;
+			}
+		}
+		@media screen and (max-width:767px){
+			#meld-menu h2, #command-list-wrapper h2{
+				font-size:1.1rem;
+			}
+		}
 	</style>
 </head>
 
