@@ -8,12 +8,12 @@
 	<style>
 		@font-face {
 			font-family: KHMenu;
-			src: url(/fonts/KHMenu.otf);
+			src: url(fonts/KHMenu.otf);
 		}
 
 		@font-face {
 			font-family: KHGummi;
-			src: url(/fonts/KHGummi.otf);
+			src: url(fonts/KHGummi.otf);
 		}
 
 		:root {
@@ -608,7 +608,7 @@
 						<label for="crystal-search">Item</label>
 						<div class="custom-dropdown" data-dropdown="crystal">
 							<div class="dropdown-header">
-								<div id="itemicon" class="icon-wrapper"><img src='/images/item-gray.png' alt='Item'
+								<div id="itemicon" class="icon-wrapper"><img src='images/item-gray.png' alt='Item'
 										class='type-icon'></div>
 								<input type="text" class="dropdown-search" id="crystal-search"
 									placeholder="Search Crystal"
@@ -5669,17 +5669,17 @@
 		];
 
 		const typeIcons = {
-			"Magic": "<img src='/images/cmd_magic.png' alt='Magic' class='type-icon'>",
-			"Physical": "<img src='/images/cmd_attack.png' alt='Attack' class='type-icon'>",
-			"Shotlock": "<img src='/images/cmd_shotlock.png' alt='Shotlock' class='type-icon'>",
-			"Movement": "<img src='/images/cmd_movement.png' alt='Movement' class='type-icon'>",
-			"Defense": "<img src='/images/cmd_defense.png' alt='Defense' class='type-icon'>",
-			"Reprisal": "<img src='/images/cmd_reprisal.png' alt='Reprisal' class='type-icon'>"
+			"Magic": "<img src='images/cmd_magic.png' alt='Magic' class='type-icon'>",
+			"Physical": "<img src='images/cmd_attack.png' alt='Attack' class='type-icon'>",
+			"Shotlock": "<img src='images/cmd_shotlock.png' alt='Shotlock' class='type-icon'>",
+			"Movement": "<img src='images/cmd_movement.png' alt='Movement' class='type-icon'>",
+			"Defense": "<img src='images/cmd_defense.png' alt='Defense' class='type-icon'>",
+			"Reprisal": "<img src='images/cmd_reprisal.png' alt='Reprisal' class='type-icon'>"
 		};
 		const characterIcons = {
-			"Terra": "<img src='/images/terra.png' alt='Terra' width='30'>",
-			"Ventus": "<img src='/images/ventus.png' alt='Ventus' width='30'>",
-			"Aqua": "<img src='/images/aqua.png' alt='Aqua' width='30'>"
+			"Terra": "<img src='images/terra.png' alt='Terra' width='30'>",
+			"Ventus": "<img src='images/ventus.png' alt='Ventus' width='30'>",
+			"Aqua": "<img src='images/aqua.png' alt='Aqua' width='30'>"
 		};
 
 		function populateDropdowns() {
@@ -5883,7 +5883,7 @@
 
 				// Add crystal icon
 				item.innerHTML =
-					`<span class="dropdown-item-icon"><img src='/images/item-gray.png' alt='Item' class='type-icon'></span><span class="dropdown-item-text">${crystal.display}</span>`;
+					`<span class="dropdown-item-icon"><img src='images/item-gray.png' alt='Item' class='type-icon'></span><span class="dropdown-item-text">${crystal.display}</span>`;
 
 				item.addEventListener('click', () => {
 					selectDropdownItem(crystalContainer, crystal.display, crystal.value);
@@ -5935,7 +5935,7 @@
 					// Check if crystal exists and abilities exist for that crystal
 					if (crystal && fusion.abilities && fusion.abilities[crystal]) {
 						abilityText =
-							`<div class="ability"><img src='/images/item-gray.png' alt='Item' class='type-icon'> ${fusion.abilities[crystal]}</div>`;
+							`<div class="ability"><img src='images/item-gray.png' alt='Item' class='type-icon'> ${fusion.abilities[crystal]}</div>`;
 					}
 
 					const characterIconsHTML = fusion.Character.map(char => characterIcons[char] || char).join(" ");
