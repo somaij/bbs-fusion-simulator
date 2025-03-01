@@ -81,7 +81,7 @@
 			padding: 0.5rem;
 		}
 
-		.title{
+		.title {
 			margin-top: 5rem;
 			text-align: center;
 		}
@@ -124,6 +124,7 @@
 				transform: translateX(25%);
 			}
 		}
+
 		@keyframes sq2 {
 			0% {
 				opacity: 0;
@@ -134,11 +135,13 @@
 				opacity: 1;
 				left: 100%;
 			}
+
 			100% {
 				opacity: 0;
 				left: 100%;
 			}
 		}
+
 		@keyframes sq3 {
 			0% {
 				opacity: 0;
@@ -149,10 +152,12 @@
 				opacity: 1;
 				left: 90%;
 			}
-			50%{
+
+			50% {
 				opacity: 0;
 				left: 50%;
 			}
+
 			100% {
 				opacity: 0;
 				left: 0;
@@ -160,7 +165,7 @@
 		}
 
 		.sq {
-			height: 100%;
+			height: 100vh;
 			width: 200px;
 			position: absolute;
 			display: block;
@@ -184,25 +189,54 @@
 			left: 5%;
 			animation: sq1 3s ease 5s infinite alternate;
 		}
-		.sq.sq-run-1{
+
+		.sq.sq-run-1 {
 			left: 0%;
 			animation: sq2 20s ease infinite forwards;
 		}
-		.sq.sq-run-2{
+
+		.sq.sq-run-2 {
 			left: 0%;
 			animation: sq2 30s ease 4s infinite forwards;
 		}
-		.sq.sq-run-3{
+
+		.sq.sq-run-3 {
 			left: 0%;
 			animation: sq2 30s ease 5s infinite forwards;
 		}
-		.sq.sq-rerun-1{
+
+		.sq.sq-rerun-1 {
 			left: 0%;
-			animation: sq3 30s  ease 6s infinite forwards;
+			animation: sq3 30s ease 6s infinite forwards;
 		}
-		
-		#commands-wrapper{
-			margin-top:3rem;
+
+		/* Toggle switch styling */
+		.search-mode-toggle-container {
+			display: flex;
+			align-items: center;
+			gap:1rem;
+			margin-bottom: 20px;
+		}
+
+		.radio-wrapper label{
+			width: 200px;
+			background-color: #111;
+			height: 45px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.2);
+			clip-path: polygon(6% 0%, 50.2% 0%, 100% 0%, 100% 85%, 92.8% 100%, 0% 100%, 0% 15%);
+		}
+		.radio-wrapper input{
+			display: none;
+		}
+		.radio-wrapper input:checked + label{
+			background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+		}
+
+		#commands-wrapper {
+			margin-top: 3rem;
 		}
 
 		.dropdown-wrapper {
@@ -213,7 +247,7 @@
 
 		.dropdown-wrapper label {
 			background-color: var(--label-blue);
-			width: 175px;
+			min-width: 175px;
 			height: 45px;
 			display: flex;
 			align-items: center;
@@ -298,7 +332,7 @@
 			border-top-right-radius: 25rem;
 			border-bottom-right-radius: 25rem;
 			box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
-			clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 5% 51%, 0% 0%);
+			clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 8% 51%, 0% 0%);
 			text-shadow: var(--text-shadow);
 			font-size: 1.1rem;
 		}
@@ -314,6 +348,12 @@
 			background: transparent;
 			padding: 0 8px;
 			width: 100%;
+		}
+
+		.recipe-plus{
+			font-family: KHMenu;
+			font-size:1.6rem;
+			color:#002E8E;
 		}
 
 		.arrow {
@@ -481,10 +521,13 @@
 			clip-path: polygon(60% 0%, 70.7% 48px, 100% 48px, 100% 100%, 40% 100%, 29.1% calc(100% - 48px), 0% calc(100% - 48px), 0% 0%);
 		}
 
-		#result {
+		#result, #ingredients-result {
 			display: flex;
 			flex-direction: column;
 			gap: 2rem;
+			height: 400px;
+			overflow-y: scroll;
+			margin-bottom: 3rem;
 		}
 
 		.command-stats {
@@ -515,13 +558,14 @@
 			align-items: center;
 			gap: 0.25rem;
 			background-color: var(--dark-blue);
-			padding: 0.5rem 0.5rem 0.5rem 2rem;
+			padding: 0.5rem 1rem;
 			border-top-right-radius: 25rem;
 			border-bottom-right-radius: 25rem;
 			clip-path: polygon(12px 0%, 100% 0%, 100% 100%, 0% 100%, 0% 12px);
 			margin-bottom: 0.25rem;
 			text-shadow: var(--text-shadow);
 			font-size: 1.1rem;
+			width: 100%;
 		}
 
 		.ability {
@@ -546,37 +590,56 @@
 			width: 25px;
 			object-fit: contain;
 		}
-		@media screen and (max-width:991px){
-			#commands-wrapper{
+
+		.recipe-ingredients {
+			display: flex;
+			gap: 1rem;
+			align-items: center;
+		}
+
+		@media screen and (max-width:991px) {
+			#commands-wrapper {
 				flex-direction: column;
-				gap:0;
+				gap: 0;
 			}
-			#command-list-wrapper{
+
+			#command-list-wrapper {
 				margin-top: -3rem;
 			}
-			#meld-menu, #command-list-wrapper{
+
+			#meld-menu,
+			#command-list-wrapper {
 				width: 100%;
 			}
-			#meld-menu .content{
-				padding:1rem 4rem 4rem 1rem;
+
+			#meld-menu .content {
+				padding: 1rem 4rem 4rem 1rem;
 			}
-			#meld-menu::before, #command-list-wrapper{
+
+			#meld-menu::before,
+			#command-list-wrapper {
 				clip-path: polygon(25% 0%, 33.7% 48px, 100% 48px, 100% 100%, 33% 100%, 25.1% calc(100% - 48px), 0% calc(100% - 48px), 0% 0%);
 			}
-			#meld-menu .content::after{
+
+			#meld-menu .content::after {
 				top: unset;
 				right: 0;
 				left: 0;
 				margin: auto;
 				transform: rotate(90deg);
 			}
-			#meld-menu h2, #command-list-wrapper h2{
-				font-size:1.3rem;
+
+			#meld-menu h2,
+			#command-list-wrapper h2 {
+				font-size: 1.3rem;
 			}
 		}
-		@media screen and (max-width:767px){
-			#meld-menu h2, #command-list-wrapper h2{
-				font-size:1.1rem;
+
+		@media screen and (max-width:767px) {
+
+			#meld-menu h2,
+			#command-list-wrapper h2 {
+				font-size: 1.1rem;
 			}
 		}
 	</style>
@@ -594,72 +657,131 @@
 	</div>
 	<div class="container">
 		<div class="title">
-		<h1>Birth by Sleep Melding Assistant</h1>
-		<p>
-			Let me D-Link with you and help you find the commands you want to meld.
-		</p>
+			<h1>Birth by Sleep Melding Assistant</h1>
+			<p>
+				Let me D-Link with you and help you find the commands you want to meld.
+			</p>
+		</div>
+		<div class="search-mode-toggle-container">
+
+				<div class="radio-wrapper">
+					<input type="radio" id="reverse" name="mode" value="reverse" checked>
+					<label for="reverse">Find Recipes</label>
+				
+				</div>
+				<div class="radio-wrapper">
+					<input type="radio" id="meld" name="mode" value="meld" >
+					<label for="meld">Meld Simulator</label>
+				
+				</div>
+				
+
 		</div>
 		<main id="commands-wrapper">
 			<section id="meld-menu">
-				<div class="content">
-					<h2>MELD</h2>
-					<div class="dropdown-wrapper">
-						<label for="cmd1-search">
-							Slot <span class="text-orange">1</span>
-						</label>
-						<div class="custom-dropdown" data-dropdown="cmd1">
-							<div class="dropdown-header">
-								<div id="cmd1icon" class="icon-wrapper"></div>
-								<input type="text" class="dropdown-search" id="cmd1-search"
-									placeholder="Search Command 1"
-									onclick="toggleDropdown(this.closest('.custom-dropdown'))"
-									oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
-								<div class="arrow"></div>
+					<div id="meld-mode-container">
+						<div class="content">
+						<h2>MELD</h2>
+						<div class="dropdown-wrapper">
+							<label for="cmd1-search">
+								Slot <span class="text-orange">1</span>
+							</label>
+							<div class="custom-dropdown" data-dropdown="cmd1">
+								<div class="dropdown-header">
+									<div id="cmd1icon" class="icon-wrapper"></div>
+									<input type="text" class="dropdown-search" id="cmd1-search"
+										placeholder="Search Command 1"
+										onclick="toggleDropdown(this.closest('.custom-dropdown'))"
+										oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+									<div class="arrow"></div>
+								</div>
+								<div class="dropdown-list"></div>
 							</div>
-							<div class="dropdown-list"></div>
+						</div>
+
+						<div class="dropdown-wrapper">
+							<label for="cmd2-search">
+								Slot <span class="text-orange">2</span>
+							</label>
+							<div class="custom-dropdown disabled" data-dropdown="cmd2">
+								<div class="dropdown-header">
+									<div id="cmd2icon" class="icon-wrapper"></div>
+									<input type="text" class="dropdown-search" id="cmd2-search"
+										placeholder="Search Command 2"
+										onclick="toggleDropdown(this.closest('.custom-dropdown'))"
+										oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+									<div class="arrow"></div>
+								</div>
+								<div class="dropdown-list"></div>
+							</div>
+						</div>
+
+						<div class="dropdown-wrapper item-dropdown-wrapper">
+							<label for="crystal-search">Item</label>
+							<div class="custom-dropdown" data-dropdown="crystal">
+								<div class="dropdown-header">
+									<div id="itemicon" class="icon-wrapper"><img src='images/item-gray.png' alt='Item'
+											class='type-icon'></div>
+									<input type="text" class="dropdown-search" id="crystal-search"
+										placeholder="Search Crystal"
+										onclick="toggleDropdown(this.closest('.custom-dropdown'))"
+										oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+									<div class="arrow"></div>
+								</div>
+								<div class="dropdown-list"></div>
+							</div>
+						</div>
+
+						<button onclick="fuseCommands()">FUSE</button>
 						</div>
 					</div>
 
-					<div class="dropdown-wrapper">
-						<label for="cmd2-search">
-							Slot <span class="text-orange">2</span>
-						</label>
-						<div class="custom-dropdown disabled" data-dropdown="cmd2">
-							<div class="dropdown-header">
-								<div id="cmd2icon" class="icon-wrapper"></div>
-								<input type="text" class="dropdown-search" id="cmd2-search"
-									placeholder="Search Command 2"
-									onclick="toggleDropdown(this.closest('.custom-dropdown'))"
-									oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
-								<div class="arrow"></div>
+					<!-- Reverse Mode (Result to Ingredients) -->
+					<div id="reverse-mode-container" style="display: none;">
+						<div class="content">
+						<h2>FIND RECIPES</h2>
+						<div class="dropdown-wrapper">
+							<label for="result-cmd-search">
+								Command
+							</label>
+							<div class="custom-dropdown" data-dropdown="result-cmd">
+								<div class="dropdown-header">
+									<div id="result-cmd-icon" class="icon-wrapper"></div>
+									<input type="text" class="dropdown-search" id="result-cmd-search"
+										placeholder="Search for Command"
+										onclick="toggleDropdown(this.closest('.custom-dropdown'))"
+										oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+									<div class="arrow"></div>
+								</div>
+								<div class="dropdown-list"></div>
 							</div>
-							<div class="dropdown-list"></div>
+						</div>
+
+						<div class="dropdown-wrapper item-dropdown-wrapper">
+							<label for="reverse-crystal-search">Item</label>
+							<div class="custom-dropdown" data-dropdown="reverse-crystal">
+								<div class="dropdown-header">
+									<div id="reverse-itemicon" class="icon-wrapper"><img src='images/item-gray.png'
+											alt='Item' class='type-icon'></div>
+									<input type="text" class="dropdown-search" id="reverse-crystal-search"
+										placeholder="Search Crystal"
+										onclick="toggleDropdown(this.closest('.custom-dropdown'))"
+										oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+									<div class="arrow"></div>
+								</div>
+								<div class="dropdown-list"></div>
+							</div>
+						</div>
+
+						<!-- <button onclick="findIngredients()">FIND RECIPES</button> -->
 						</div>
 					</div>
-
-					<div class="dropdown-wrapper item-dropdown-wrapper">
-						<label for="crystal-search">Item</label>
-						<div class="custom-dropdown" data-dropdown="crystal">
-							<div class="dropdown-header">
-								<div id="itemicon" class="icon-wrapper"><img src='images/item-gray.png' alt='Item'
-										class='type-icon'></div>
-								<input type="text" class="dropdown-search" id="crystal-search"
-									placeholder="Search Crystal"
-									onclick="toggleDropdown(this.closest('.custom-dropdown'))"
-									oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
-								<div class="arrow"></div>
-							</div>
-							<div class="dropdown-list"></div>
-						</div>
-					</div>
-
-					<button onclick="fuseCommands()">FUSE</button>
-				</div>
 			</section>
 			<section id="command-list-wrapper">
 				<div class="content">
 					<h2>COMMANDS</h2>
 					<div id="result"></div>
+					<div id="ingredients-result"></div>
 				</div>
 
 			</section>
@@ -5714,6 +5836,203 @@
 			"Ventus": "<img src='images/ventus.png' alt='Ventus' width='30'>",
 			"Aqua": "<img src='images/aqua.png' alt='Aqua' width='30'>"
 		};
+		
+		// Toggle between normal and reverse mode
+		function toggleSearchMode() {
+			
+			const searchModeToggle = document.querySelector('input[name="mode"]:checked');
+			console.log(searchModeToggle);
+
+			// Get containers for both modes
+			const meldModeContainer = document.getElementById('meld-mode-container');
+			const reverseModeContainer = document.getElementById('reverse-mode-container');
+			const meldModeResultContainer = document.getElementById('result');
+			const reverseModeResultContainer = document.getElementById('ingredients-result');
+			
+			if(searchModeToggle.value == 'reverse'){
+				meldModeContainer.style.display = 'none';
+				meldModeResultContainer.style.display = 'none';
+				reverseModeContainer.style.display = 'block';
+				reverseModeResultContainer.style.display = 'flex';
+			}
+			if(searchModeToggle.value == 'meld'){
+				meldModeContainer.style.display = 'block';
+				meldModeResultContainer.style.display = 'flex';
+				reverseModeContainer.style.display = 'none';
+				reverseModeResultContainer.style.display = 'none';
+			}
+			
+	
+		}
+		// Populate the dropdown for reverse search (end results)
+		function populateResultsDropdown() {
+			const resultContainer = document.querySelector('[data-dropdown="result-cmd"]');
+			const resultList = resultContainer.querySelector('.dropdown-list');
+
+			// Clear the dropdown
+			resultList.innerHTML = '';
+
+			// Get unique result commands
+			const uniqueResults = new Set();
+			commandData.forEach((c) => {
+				uniqueResults.add(c.Commands);
+			});
+
+			// Sort and add commands to the result dropdown
+			[...uniqueResults].sort().forEach((cmd) => {
+				if (cmd) {
+					const item = document.createElement('div');
+					item.className = 'dropdown-item';
+					item.dataset.value = cmd;
+
+					// Add icon based on command type
+					const type = commandTypes[cmd.trim()];
+					const iconHTML = typeIcons[type] || '';
+
+					// Create the item with icon and text
+					item.innerHTML =
+						`<span class="dropdown-item-icon">${iconHTML}</span><span class="dropdown-item-text">${cmd}</span>`;
+
+					item.addEventListener('click', () => {
+						selectDropdownItem(resultContainer, cmd);
+						findIngredients();
+					});
+					resultList.appendChild(item);
+				}
+			});
+		}
+		// Find ingredients that create the selected result
+		function findIngredients() {
+			const resultContainer = document.querySelector('[data-dropdown="result-cmd"]');
+			const resultCmd = resultContainer.dataset.value || '';
+
+			const typeResult = commandTypes[resultCmd.trim()];
+			document.getElementById("result-cmd-icon").innerHTML = typeIcons[typeResult];
+
+			const crystalContainer = document.querySelector('[data-dropdown="reverse-crystal"]');
+			const crystal = crystalContainer.dataset.value || '';
+
+			const ingredientsDiv = document.getElementById("ingredients-result");
+
+			if (!resultCmd) {
+				ingredientsDiv.innerText = "Please select a command to find its ingredients";
+				return;
+			}
+
+			// Find all fusions that result in the selected command
+			const matches = commandData.filter(entry => entry.Commands === resultCmd);
+
+			if (matches.length > 0) {
+				let resultText = "";
+				matches.forEach((match) => {
+					let abilityText = "";
+
+					// Check for ability with the selected crystal if any
+					if (crystal && match.abilities) {
+						// Try different case variations
+						if (match.abilities[crystal]) {
+							abilityText =
+								`<div class="ability"><img src='images/item-gray.png' alt='Item' class='type-icon'> ${match.abilities[crystal]}</div>`;
+						} else if (match.abilities[crystal.charAt(0).toUpperCase() + crystal.slice(1)]) {
+							const properCase = crystal.charAt(0).toUpperCase() + crystal.slice(1);
+							abilityText =
+								`<div class="ability"><img src='images/item-gray.png' alt='Item' class='type-icon'> ${match.abilities[properCase]}</div>`;
+						} else if (match.abilities[crystalContainer.dataset.display]) {
+							abilityText =
+								`<div class="ability"><img src='images/item-gray.png' alt='Item' class='type-icon'> ${match.abilities[crystalContainer.dataset.display]}</div>`;
+						}
+					}
+
+					// Get icons for the ingredients
+					const type1 = commandTypes[match.Ingredient1.trim()];
+					const type2 = commandTypes[match.Ingredient2.trim()];
+					const icon1 = typeIcons[type1] || '';
+					const icon2 = typeIcons[type2] || '';
+
+					// Get character icons
+					const characterIconsHTML = match.Character.map(char => characterIcons[char] || char).join(" ");
+
+					resultText += `
+        <div class="command-list-item">
+          <div class="command-stats">
+            <h6>${match.Odds}%</h6>
+            <div class="char-icons">${characterIconsHTML}</div>
+          </div>
+          <div class="recipe-ingredients">
+            <div class="command">${icon1} ${match.Ingredient1}</div>
+            <div class="recipe-plus">+</div>
+            <div class="command">${icon2} ${match.Ingredient2}</div>
+          </div>
+          ${abilityText}
+        </div>
+      `;
+				});
+
+				ingredientsDiv.innerHTML = resultText.trim();
+			} else {
+				ingredientsDiv.innerHTML = "No recipes found for this command";
+			}
+		}
+		// Setup the reverse mode crystal dropdown
+		function setupReverseCrystalDropdown() {
+			const crystalContainer = document.querySelector('[data-dropdown="reverse-crystal"]');
+			const crystalList = crystalContainer.querySelector('.dropdown-list');
+
+			// Clear the dropdown
+			crystalList.innerHTML = '';
+
+			// Add crystal options with proper casing
+			const crystals = [{
+					display: "Shimmering",
+					value: "shimmering"
+				},
+				{
+					display: "Fleeting",
+					value: "fleeting"
+				},
+				{
+					display: "Pulsing",
+					value: "pulsing"
+				},
+				{
+					display: "Wellspring",
+					value: "wellspring"
+				},
+				{
+					display: "Soothing",
+					value: "soothing"
+				},
+				{
+					display: "Hungry",
+					value: "hungry"
+				},
+				{
+					display: "Abounding",
+					value: "abounding"
+				}
+			];
+
+			crystals.forEach(crystal => {
+				const item = document.createElement('div');
+				item.className = 'dropdown-item';
+				item.dataset.value = crystal.value;
+				item.dataset.display = crystal.display;
+
+				// Add crystal icon
+				item.innerHTML =
+					`<span class="dropdown-item-icon"><img src='images/item-gray.png' alt='Item' class='type-icon'></span><span class="dropdown-item-text">${crystal.display}</span>`;
+
+				item.addEventListener('click', () => {
+					selectDropdownItem(crystalContainer, crystal.display, crystal.value);
+					// If we already have a result selected, update the ingredients
+					const resultContainer = document.querySelector('[data-dropdown="result-cmd"]');
+					if (resultContainer.dataset.value) {
+						findIngredients();
+					}
+				});
+				crystalList.appendChild(item);
+			});
+		}
 
 		function populateDropdowns() {
 			// Get the first dropdown container
@@ -5869,6 +6188,7 @@
 			}
 		}
 
+
 		function setupCrystalDropdown() {
 			const crystalContainer = document.querySelector('[data-dropdown="crystal"]');
 			const crystalInput = crystalContainer.querySelector('.dropdown-search');
@@ -6000,7 +6320,19 @@
 		// Initialize the dropdowns when the DOM is loaded
 		document.addEventListener("DOMContentLoaded", () => {
 			populateDropdowns();
+			populateResultsDropdown();
 			setupCrystalDropdown();
+			setupReverseCrystalDropdown();
+
+			// Initialize mode toggle
+			// const searchModeToggle = document.querySelectorAll('input[name="mode"]');
+			// searchModeToggle.addEventListener('change', toggleSearchMode);
+			// 	toggleSearchMode(); // Set initial state
+
+				document.querySelectorAll('input[name="mode"]').forEach(radio => {
+  radio.addEventListener('click', toggleSearchMode);
+});
+toggleSearchMode();
 		});
 	</script>
 </body>
