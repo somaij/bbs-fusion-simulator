@@ -4,7 +4,8 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta name="description" content="Try this Kingdom Hearts: Birth by Sleep Meld Simulator. Mix command combos, check odds, and discover bonus abilities. Elevate your melding game">
+	<meta name="description"
+		content="Try this Kingdom Hearts: Birth by Sleep Meld Simulator. Mix command combos, check odds, and discover bonus abilities. Elevate your melding game">
 	<meta name="google-adsense-account" content="ca-pub-7650631025891864">
 	<title>KH: BBS Command Fusion Simulator</title>
 
@@ -730,6 +731,35 @@
 			color: #ffffffb4;
 		}
 
+		#cookie-banner {
+			display: none;
+			position: fixed;
+			margin: auto;
+			bottom: 1rem;
+			left: 0;
+			right: 0;
+			background: linear-gradient(0deg, rgba(4,1,161,1) 0%, rgba(2,1,87,1) 100%);
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			z-index: 10;
+			width: 90%;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 2px 3px 2px rgba(255, 255, 255, 0.2);
+			border-radius: 25px;
+		}
+		#accept-cookies, #decline-cookies{
+			cursor: pointer;
+			background-color: var(--bg);
+			border-radius: 25px;
+			border:2px solid transparent;
+			padding:1rem 3rem;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 2px 3px 2px rgba(255, 255, 255, 0.2);
+			transition: 250ms all ease;
+		}
+		#accept-cookies:hover, #decline-cookies:hover{
+			background: linear-gradient(0deg, rgba(154,1,2,1) 0%, rgba(126,2,0,1) 100%);
+			border:2px solid var(--deep-red);
+		}
 		@media screen and (max-width:991px) {
 			#commands-wrapper {
 				flex-direction: column;
@@ -1012,6 +1042,16 @@
 				respective owners.</p>
 		</div>
 	</footer>
+	<div id="cookie-banner">
+		<div class="container">
+			<p>We use cookies to analyze traffic and improve your experience. By clicking "Accept," you consent
+					to our use of cookies.</p>
+			<div class="cookie-buttons" style="margin-top:1rem">
+				<button id="accept-cookies">Accept</button>
+				<button id="decline-cookies">Decline</button>
+			</div>
+		</div>
+	</div>
 	<script>
 		const commandTypes = {
 			"Aerial Slam": "Physical",
@@ -6558,6 +6598,62 @@
 				radio.addEventListener('click', toggleSearchMode);
 			});
 			toggleSearchMode();
+		});
+	</script>
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYNVRTZP4F"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		// Disable GA4 by default
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'analytics_storage': 'denied'
+		});
+
+		// Check if the user has accepted cookies
+		if (localStorage.getItem('cookieConsent') === 'accepted') {
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'G-BYNVRTZP4F');
+	</script>
+
+	<script>
+		// Check if the user has already consented
+		if (!localStorage.getItem('cookieConsent')) {
+			document.getElementById('cookie-banner').style.display = 'block';
+		}
+
+		// Handle accept button
+		document.getElementById('accept-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'accepted');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Enable GA4
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		});
+
+		// Handle decline button
+		document.getElementById('decline-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'declined');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Keep GA4 disabled
+			gtag('consent', 'update', {
+				'ad_storage': 'denied',
+				'analytics_storage': 'denied'
+			});
 		});
 	</script>
 </body>
