@@ -778,6 +778,11 @@ footer {
     color: #ffffffb4;
 }
 
+footer a{
+    color:#ffffffd2;
+    font-size:0.6rem;
+}
+
 #cookie-banner {
     display: none;
     position: fixed;
@@ -810,6 +815,15 @@ footer {
 #decline-cookies:hover {
     background: linear-gradient(0deg, rgba(154, 1, 2, 1) 0%, rgba(126, 2, 0, 1) 100%);
     border: 2px solid var(--deep-red);
+}
+
+.regular-text-content h2{
+    font-family: "KHMenu", Arial, sans-serif;
+    text-transform: none;
+    margin-top: 2rem;
+}
+.regular-text-content a{
+    color:var(--bg-yellow);
 }
 
 @media screen and (max-width:991px) {
