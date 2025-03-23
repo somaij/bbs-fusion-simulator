@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description"
+		content="Try this Kingdom Hearts: Birth by Sleep Meld Simulator. Mix command combos, check odds, and discover bonus abilities. Elevate your melding game">
+	<meta name="google-adsense-account" content="ca-pub-7650631025891864">
+	<title>KH: BBS Command Fusion Simulator</title>
+	<link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+	<nav>
+		<div class="logo"><a href="/" role="logo">Birth by Sleep Melding Assistant</a></div>
+		<a href="/faqs">FAQs</a>
+	</nav>
+    	<div class="background">
+		<div class="sq sq1"></div>
+		<div class="sq sq2"></div>
+		<div class="sq sq3"></div>
+		<div class="sq sq-run-1"></div>
+		<div class="sq sq-run-2"></div>
+		<div class="sq sq-run-3"></div>
+		<div class="sq sq-rerun-1"></div>
+	</div>
+    <section id="faq-content">
+		<div class="container">
+			<div class="text">
+			<h2>FAQs</h2>
+			<div class="faq">
+			<h3>What is melding?</h3>
+			<p>In Kingdom Hearts: Birth by Sleep, it's possible to meld (combine) commands to create new and more
+				powerful commands. When you attach an item to a command meld, you get a passive ability on the newly
+				created command.</p>
+			</div>
+			<div class="faq">
+				<h3>Why should I level up commands?</h3>
+				<p>When you have the command in the active battle command deck or action command deck, the passive ability
+					will be equipped. By fully leveling up your command, you will earn the passive command permanently</p>
+			</div>
+			<div class="faq">
+				<h3>What are the different types of fusion commands?</h3>
+				<p>There are 5 types of commands that you can fuse in Kingdom Hearts: Birth by Sleep</p>
+				<ul>
+					<li>Physical</li>
+					<li>Magic</li>
+					<li>Movement</li>
+					<li>Defense</li>
+					<li>Shotlock</li>
+				</ul>
+				<p>To make the most out of your available space, it's recommended to meld defense and movement commands as
+					soon as you are able.</p>
+				<p><strong>Note:</strong> Shotlocks cannot have passive ablities attached to them.</p>
+			</div>
+			
+			<div class="faq">
+				<h3>How do I get rare commands?</h3>
+				<p>Some commands can only be obtained through specific melding combinations (and some may have a low
+					probability of your preferred outcome) or by purchasing them from Moogle Shops.</p>
+			</div>
+			<div class="faq">
+				<h3>What happens if I use the wrong ingredients?</h3>
+				<p>Not all melds result in useful commands! Some combinations might create a command with an ablity you
+					already have. Using this tool helps you avoid trial and error.</p>
+			</div>
+		</div>
+		</div>
+
+	</section>
+
+    	<footer>
+		<div class="container">
+			<p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
+				Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
+				logos, images, and other copyrighted materials displayed on this website are the property of their
+				respective owners.</p>
+		</div>
+	</footer>
+	<div id="cookie-banner">
+		<div class="container">
+			<p>We use cookies to analyze traffic and improve your experience. By clicking "Accept," you consent
+				to our use of cookies.</p>
+			<div class="cookie-buttons" style="margin-top:1rem">
+				<button id="accept-cookies">Accept</button>
+				<button id="decline-cookies">Decline</button>
+			</div>
+		</div>
+	</div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYNVRTZP4F"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		// Disable GA4 by default
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'analytics_storage': 'denied'
+		});
+
+		// Check if the user has accepted cookies
+		if (localStorage.getItem('cookieConsent') === 'accepted') {
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'G-BYNVRTZP4F');
+	</script>
+
+	<script>
+		// Check if the user has already consented
+		if (!localStorage.getItem('cookieConsent')) {
+			document.getElementById('cookie-banner').style.display = 'block';
+		}
+
+		// Handle accept button
+		document.getElementById('accept-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'accepted');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Enable GA4
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		});
+
+		// Handle decline button
+		document.getElementById('decline-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'declined');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Keep GA4 disabled
+			gtag('consent', 'update', {
+				'ad_storage': 'denied',
+				'analytics_storage': 'denied'
+			});
+		});
+	</script>
+</body>
+
+</html>
