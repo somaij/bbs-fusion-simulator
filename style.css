@@ -827,6 +827,10 @@ footer a{
 }
 
 @media screen and (max-width:991px) {
+    .logo-wrapper{
+        margin-bottom: 2rem;
+    }
+
     #commands-wrapper {
         flex-direction: column;
         gap: 0;
@@ -867,6 +871,13 @@ footer a{
 @media screen and (max-width:850px) {}
 
 @media screen and (max-width:767px) {
+    nav .logo a{
+        font-size:0.6rem;
+    }
+        .title .text{
+        font-size: 0.9rem;
+        text-align: left;
+    }
     #meld-menu h2:after {
         margin-top: 1rem;
     }
