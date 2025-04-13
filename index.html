@@ -32,12 +32,14 @@
 				<h1>Birth by Sleep Melding Assistant</h1>
 			</div>
 			<div class="text">
-			<p>Welcome to the ultimate Command Fusion Simulator for Kingdom Hearts Birth by Sleep! This tool helps you mix and match different commands, view fusion odds, and discover bonus abilities. No more guessing - instantly see what your next powerful command will be!
+				<p>Welcome to the ultimate Command Fusion Simulator for Kingdom Hearts Birth by Sleep! This tool helps
+					you mix and match different commands, view fusion odds, and discover bonus abilities. No more
+					guessing - instantly see what your next powerful command will be!
 
-Select your ingredients below and see the results instantly.</p>
-			<p>
-				Let's D-Link and help you find the commands you want to meld.
-			</p>
+					Select your ingredients below and see the results instantly.</p>
+				<p>
+					Let's D-Link and help you find the commands you want to meld.
+				</p>
 			</div>
 		</div>
 		<div class="search-mode-toggle-container">
@@ -166,16 +168,16 @@ Select your ingredients below and see the results instantly.</p>
 		</main>
 	</div>
 
-    <footer>
-        <div class="container">
-            <p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
-                Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
-                logos, images, and other copyrighted materials displayed on this website are the property of their
-                respective owners.</p>
-                <a href="/privacy">Privacy Policy</a> | 
-                <a href="/terms">Terms of Use</a>
-        </div>
-    </footer>
+	<footer>
+		<div class="container">
+			<p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
+				Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
+				logos, images, and other copyrighted materials displayed on this website are the property of their
+				respective owners.</p>
+			<a href="/privacy">Privacy Policy</a> |
+			<a href="/terms">Terms of Use</a>
+		</div>
+	</footer>
 	<div id="cookie-banner">
 		<div class="container">
 			<p>We use cookies to analyze traffic and improve your experience. By clicking "Accept," you consent
@@ -5716,6 +5718,62 @@ Select your ingredients below and see the results instantly.</p>
 			});
 		});
 
+		function preselectDropdown(dropdownId, value) {
+	const dropdown = document.querySelector(`.custom-dropdown[data-dropdown="${dropdownId}"]`);
+	if (!dropdown) return;
+
+	const items = dropdown.querySelectorAll(".dropdown-item");
+
+	for (const item of items) {
+		if (item.dataset.value.toLowerCase() === value.toLowerCase()) {
+			const input = dropdown.querySelector(".dropdown-search");
+			const displayValue = item.dataset.value;
+
+			// Update the input field
+			input.value = displayValue;
+
+			// Update data attributes
+			dropdown.dataset.value = displayValue;
+			dropdown.dataset.display = displayValue;
+
+			// Update icon
+			const iconWrapper = dropdown.querySelector(".icon-wrapper");
+			const selectedIcon = item.querySelector("img");
+			if (selectedIcon && iconWrapper) {
+				iconWrapper.innerHTML = selectedIcon.outerHTML;
+			}
+
+			// Trigger any additional logic if needed (like filtering second dropdown)
+			item.dispatchEvent(new Event("click")); // optional: triggers existing logic if click handler is bound
+
+			break;
+		}
+	}
+}
+
+
+		function getQueryParams() {
+			const params = new URLSearchParams(window.location.search);
+			return {
+				cmd1: params.get("cmd1"),
+				cmd2: params.get("cmd2"),
+				crystal: params.get("crystal")
+			};
+
+		}
+
+		function setInitialModeFromURL() {
+			const params = new URLSearchParams(window.location.search);
+			const mode = params.get("mode");
+
+			if (mode === "simulator") {
+				document.getElementById("meld").click(); // Or whatever triggers the mode switch
+			} else if (mode === "finder") {
+				document.getElementById("finder-tab").click();
+			}
+		}
+
+
 		// Initialize the dropdowns when the DOM is loaded
 		document.addEventListener("DOMContentLoaded", () => {
 			populateDropdowns();
@@ -5732,6 +5790,20 @@ Select your ingredients below and see the results instantly.</p>
 				radio.addEventListener('click', toggleSearchMode);
 			});
 			toggleSearchMode();
+
+			setInitialModeFromURL();
+
+			const {
+				cmd1,
+				cmd2,
+				crystal
+			} = getQueryParams();
+				if (cmd1) preselectDropdown("cmd1", cmd1);
+	if (cmd2) preselectDropdown("cmd2", cmd2);
+	if (crystal) preselectDropdown("crystal", crystal);
+
+
+			if (cmd1 && cmd2) fuseCommands();
 		});
 	</script>
 
