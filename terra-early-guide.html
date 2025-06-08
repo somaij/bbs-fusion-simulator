@@ -217,7 +217,80 @@
             </div>
         </div>
     </section>
+    <footer>
+		<div class="container">
+			<p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
+				Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
+				logos, images, and other copyrighted materials displayed on this website are the property of their
+				respective owners.</p>
+			<a href="/privacy">Privacy Policy</a> |
+			<a href="/terms">Terms of Use</a>
+		</div>
+	</footer>
+	<div id="cookie-banner">
+		<div class="container">
+			<p>We use cookies to analyze traffic and improve your experience. By clicking "Accept," you consent
+				to our use of cookies.</p>
+			<div class="cookie-buttons" style="margin-top:1rem">
+				<button id="accept-cookies">Accept</button>
+				<button id="decline-cookies">Decline</button>
+			</div>
+		</div>
+	</div>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-BYNVRTZP4F"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
 
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+
+		// Disable GA4 by default
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'analytics_storage': 'denied'
+		});
+
+		// Check if the user has accepted cookies
+		if (localStorage.getItem('cookieConsent') === 'accepted') {
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		}
+
+		gtag('js', new Date());
+		gtag('config', 'G-BYNVRTZP4F');
+	</script>
+
+	<script>
+		// Check if the user has already consented
+		if (!localStorage.getItem('cookieConsent')) {
+			document.getElementById('cookie-banner').style.display = 'block';
+		}
+
+		// Handle accept button
+		document.getElementById('accept-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'accepted');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Enable GA4
+			gtag('consent', 'update', {
+				'ad_storage': 'granted',
+				'analytics_storage': 'granted'
+			});
+		});
+
+		// Handle decline button
+		document.getElementById('decline-cookies').addEventListener('click', function () {
+			localStorage.setItem('cookieConsent', 'declined');
+			document.getElementById('cookie-banner').style.display = 'none';
+			// Keep GA4 disabled
+			gtag('consent', 'update', {
+				'ad_storage': 'denied',
+				'analytics_storage': 'denied'
+			});
+		});
+	</script>
 </body>
 
 </html>
