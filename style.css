@@ -54,20 +54,26 @@ nav {
     align-items: center;
     margin-bottom: 2rem;
     padding: 0 1rem 1rem;
-    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-nav a{
-    color:#FFF;
-    font-size:0.75rem;
+
+nav a {
+    color: #FFF;
+    font-size: 0.75rem;
     text-decoration: none;
     font-family: "KHGummi", "KHMenu", Arial, sans-serif;
     text-transform: uppercase;
     transition: 250ms all ease;
     text-shadow: var(--title-text-shadow);
 }
-nav a:hover{
+
+nav a:hover {
     color: var(--bg-yellow);
-    
+
+}
+nav .links{
+    display: flex;
+    gap: 1rem;
 }
 
 h1,
@@ -315,7 +321,8 @@ select {
     }
 }
 
-.radio-wrapper input:checked+label::after, .btn.highlight:after {
+.radio-wrapper input:checked+label::after,
+.btn.highlight:after {
     display: block;
     position: absolute;
     content: "";
@@ -743,8 +750,8 @@ select option:hover {
     margin: 3rem 0;
 }
 
-#faq-content h1{
-    font-size:1.1rem;
+#faq-content h1 {
+    font-size: 1.1rem;
 }
 
 #faq-content .text {
@@ -769,13 +776,61 @@ select option:hover {
     margin-bottom: 0;
 }
 
-.faq a{
+.faq a {
     color: var(--bg-yellow);
 }
 
 .faq p,
 .faq ul li {
     color: #eee;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 1em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+table th, table td {
+  padding: 0.75em;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+table th {
+  background-color: #333;
+}
+
+
+
+#guide {
+    margin: 3rem 0;
+}
+
+
+#guide h1 {
+    font-size: 1.1rem;
+}
+
+#guide .text h2 {
+    font-size: 1rem;
+    margin: 1rem 0 2rem;
+}
+
+#guide .text {
+    padding: 3rem;
+    background: linear-gradient(0deg, rgba(4, 1, 161, 0.75) 0%, rgba(2, 1, 87, 0.75) 100%);
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+}
+
+#guide .text p a,
+#guide .text ul li a,
+#guide .text td a {
+    color: var(--bg-yellow);
 }
 
 footer {
@@ -786,9 +841,9 @@ footer {
     color: #ffffffb4;
 }
 
-footer a{
-    color:#ffffffd2;
-    font-size:0.6rem;
+footer a {
+    color: #ffffffd2;
+    font-size: 0.6rem;
 }
 
 #cookie-banner {
@@ -812,7 +867,7 @@ footer a{
 #decline-cookies,
 a.btn {
     text-decoration: none;
-    color:#FFF;
+    color: #FFF;
     cursor: pointer;
     background-color: var(--bg);
     border-radius: 25px;
@@ -830,17 +885,18 @@ a.btn:hover {
     border: 2px solid var(--deep-red);
 }
 
-.regular-text-content h2{
+.regular-text-content h2 {
     font-family: "KHMenu", Arial, sans-serif;
     text-transform: none;
     margin-top: 2rem;
 }
-.regular-text-content a{
-    color:var(--bg-yellow);
+
+.regular-text-content a {
+    color: var(--bg-yellow);
 }
 
 @media screen and (max-width:991px) {
-    .logo-wrapper{
+    .logo-wrapper {
         margin-bottom: 2rem;
     }
 
@@ -883,14 +939,20 @@ a.btn:hover {
 
 @media screen and (max-width:850px) {}
 
+
+@media (max-width: 768px) {
+
+}
 @media screen and (max-width:767px) {
-    nav .logo a{
-        font-size:0.6rem;
+    nav .logo a {
+        font-size: 0.6rem;
     }
-        .title .text{
+
+    .title .text {
         font-size: 0.9rem;
         text-align: left;
     }
+
     #meld-menu h2:after {
         margin-top: 1rem;
     }
@@ -918,7 +980,35 @@ a.btn:hover {
     .dropdown-search {
         font-size: 0.75rem;
     }
+        #guide .text{
+        padding: 2rem 1.5rem;
+    }
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
 
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    padding: 0.75em;
+  }
+
+  table td {
+    padding-left: 50%;
+    position: relative;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0.75em;
+    top: 0.75em;
+    font-weight: bold;
+    color: #ccc;
+    white-space: nowrap;
+  }
 }
 
 @media screen and (max-width:575px) {
