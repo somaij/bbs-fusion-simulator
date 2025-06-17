@@ -746,23 +746,27 @@ select option:hover {
     align-items: center;
 }
 
-#faq-content {
+#faq-content, #why-content {
     margin: 3rem 0;
 }
 
-#faq-content h1 {
+#faq-content h1, #why-content h1 {
     font-size: 1.1rem;
 }
 
-#faq-content .text {
+#faq-content .text, #why-content .text {
     padding: 3rem;
     background: linear-gradient(0deg, rgba(4, 1, 161, 0.75) 0%, rgba(2, 1, 87, 0.75) 100%);
     backdrop-filter: blur(20px);
     border-radius: 25px;
 }
 
-#faq-content .text h2 {
+#faq-content .text h2, #why-content .text h2 {
     margin-bottom: 2rem;
+}
+
+#why-content .text a {
+    color:var(--bg-yellow);
 }
 
 .faq {
