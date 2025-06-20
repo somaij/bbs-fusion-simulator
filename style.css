@@ -102,6 +102,10 @@ h4 {
     line-height: 1.1;
 }
 
+p{
+    line-height: 1.6;
+}
+
 
 span.text-orange {
     color: var(--text-orange);
@@ -1100,13 +1104,18 @@ a.btn:hover {
         width: 95%;
     }
 
-    #faq-content .text {
+    #faq-content .text, #why-content .text {
         padding: 2rem 1.5rem;
     }
 
     .faq p,
-    .faq ul li {
+    .faq ul li,
+    .faq ol li {
         font-size: 0.9rem;
+    }
+        .faq ul,
+        .faq ol {
+        padding-left:1rem;
     }
 
     .footer-nav{
