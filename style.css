@@ -765,9 +765,6 @@ select option:hover {
     margin-bottom: 2rem;
 }
 
-#why-content .text a {
-    color:var(--bg-yellow);
-}
 
 .faq {
     padding-bottom: 1rem;
@@ -780,8 +777,12 @@ select option:hover {
     margin-bottom: 0;
 }
 
-.faq a {
+.text a {
     color: var(--bg-yellow);
+    transition: 250ms all ease;
+}
+.text a:hover {
+    color: var(--text-orange);
 }
 
 .faq p,
@@ -850,6 +851,28 @@ footer a {
     font-size: 0.6rem;
 }
 
+footer .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-bottom:2rem;
+    margin-bottom: 2rem;
+    border-bottom:1px solid rgba(255,255,255,0.5);
+}
+
+footer .footer-nav a{
+    font-size:1rem;
+    color:var(--bg-yellow);
+    text-decoration: none;
+    transition: 250ms all ease;
+}
+
+footer .footer-nav a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
 #cookie-banner {
     display: none;
     position: fixed;
@@ -870,6 +893,7 @@ footer a {
 #accept-cookies,
 #decline-cookies,
 a.btn {
+    display: inline-block;
     text-decoration: none;
     color: #FFF;
     cursor: pointer;
@@ -885,6 +909,7 @@ a.btn {
 #accept-cookies:hover,
 #decline-cookies:hover,
 a.btn:hover {
+    color:#FFF;
     background: linear-gradient(0deg, rgba(154, 1, 2, 1) 0%, rgba(126, 2, 0, 1) 100%);
     border: 2px solid var(--deep-red);
 }
@@ -1067,6 +1092,11 @@ a.btn:hover {
     .faq p,
     .faq ul li {
         font-size: 0.9rem;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+        gap: 0.5rem;
     }
 
     #meld-menu .content::after {
