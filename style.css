@@ -1,6 +1,19 @@
 @font-face {
     font-family: KHMenu;
     src: url(fonts/KHMenu.otf);
+    font-weight:normal;
+}
+
+@font-face{
+    font-family: KHMenu;
+    src: url(fonts/KHMenu-Bold.otf);
+    font-weight:bold;
+}
+@font-face{
+    font-family: KHMenu;
+    src: url(fonts/KHMenu-Italic.otf);
+    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
