@@ -786,7 +786,9 @@ select option:hover {
 }
 
 .faq p,
-.faq ul li {
+.faq ul li,
+.faq ol li {
+    margin-bottom:1rem;
     color: #eee;
 }
 
