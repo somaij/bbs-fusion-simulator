@@ -1060,6 +1060,11 @@ a.btn:hover {
 }
 
 @media screen and (max-width:575px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap:1rem;
+    }
     .background {
         opacity: 0.7;
     }
