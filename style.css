@@ -21,6 +21,14 @@
     src: url(fonts/KHGummi.otf);
 }
 
+@font-face {
+    font-family: 'Comic Hearts';
+    src: url(fonts/ComicHearts.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
 :root {
     --bg: #00000e;
     --bg-blue: #027AEC;
@@ -106,6 +114,10 @@ p, li, td{
     line-height: 1.6;
 }
 
+p, li{
+    font-family: "Comic Hearts", "KHMenu", Arial, sans-serif;
+      /* font-family: "Comic Neue", cursive; */
+}
 
 span.text-orange {
     color: var(--text-orange);
@@ -805,7 +817,7 @@ select option:hover {
 .faq p,
 .faq ul li,
 .faq ol li {
-    margin-bottom:1rem;
+    margin-bottom:0.5rem;
     color: #eee;
 }
 
