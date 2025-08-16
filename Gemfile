@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # This gem is required to publish your site on GitHub Pages
-gem "github-pages", "~> 224", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 
 # Add other gems to their respective groups
 group :jekyll_plugins do
@@ -10,3 +10,4 @@ group :jekyll_plugins do
   gem "csv"
   gem "bigdecimal"
 end
+gem "webrick", "~> 1.9"
