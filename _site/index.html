@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://cmp.gatekeeperconsent.com/min.js" data-cfasync="false"></script>
+<script src="https://the.gatekeeperconsent.com/cmp.min.js" data-cfasync="false"></script>
+	<script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+<script>
+    window.ezstandalone = window.ezstandalone || {};
+    ezstandalone.cmd = ezstandalone.cmd || [];
+</script>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-adsense-account" content="ca-pub-7650631025891864">
+	<link rel="stylesheet" href="/style.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>KH BBS Melding Calculator &amp; Command Fusion Guide | Kingdom Hearts Birth by Sleep Melding Calculator</title>
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="KH BBS Melding Calculator &amp; Command Fusion Guide" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Use this KH BBS Melding Calculator to simulate command fusions, discover abilities, and plan your best build. Find recipes for Second Chance, EXP Walker, and more." />
+<meta property="og:description" content="Use this KH BBS Melding Calculator to simulate command fusions, discover abilities, and plan your best build. Find recipes for Second Chance, EXP Walker, and more." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Kingdom Hearts Birth by Sleep Melding Calculator" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="KH BBS Melding Calculator &amp; Command Fusion Guide" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Use this KH BBS Melding Calculator to simulate command fusions, discover abilities, and plan your best build. Find recipes for Second Chance, EXP Walker, and more.","headline":"KH BBS Melding Calculator &amp; Command Fusion Guide","name":"Kingdom Hearts Birth by Sleep Melding Calculator","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+    
+  <body>
+<nav>
+        <div class="logo"><a href="/" role="logo">Birth by Sleep Melding Assistant</a></div>
+        <div class="links">
+        <a href="/faqs">FAQs</a>
+        <a href="/beginners-guide">Beginners Guide</a>
+        </div>
+    </nav>
+	<div class="background">
+		<div class="sq sq1"></div>
+		<div class="sq sq2"></div>
+		<div class="sq sq3"></div>
+		<div class="sq sq-run-1"></div>
+		<div class="sq sq-run-2"></div>
+		<div class="sq sq-run-3"></div>
+		<div class="sq sq-rerun-1"></div>
+	</div>
+
+     <div class="container">
+<div class="title">
+<div class="logo-wrapper">
+<img src="/images/blue-heart.png" alt="Kingdom Hearts Birth by Sleep logo" />
+<h1>Birth by Sleep Melding Assistant</h1>
+</div>
+<div class="text">
+<p>Welcome to the ultimate Command Fusion Simulator for Kingdom Hearts Birth by Sleep! This tool helps
+you mix and match different commands, view fusion odds, and discover bonus abilities. No more
+guessing - instantly see what your next powerful command will be!
+
+Select your ingredients below and see the results instantly.</p>
+<p>
+Let's D-Link and help you find the commands you want to meld.
+</p>
+</div>
+</div>
+<div class="search-mode-toggle-container">
+
+<div class="radio-wrapper">
+<input type="radio" id="reverse" name="mode" value="reverse" checked="" />
+<label for="reverse">Find Recipes</label>
+
+</div>
+<div class="radio-wrapper">
+<input type="radio" id="meld" name="mode" value="meld" />
+<label for="meld">Meld Simulator</label>
+
+</div>
+
+
+</div>
+<main id="commands-wrapper">
+<section id="meld-menu">
+<div id="meld-mode-container">
+<div class="content">
+<h2>MELD</h2>
+<div class="dropdown-wrapper">
+    <label for="cmd1-search">
+        SLOT <span class="text-orange">1</span>
+    </label>
+    <div class="custom-dropdown" data-dropdown="cmd1">
+        <div class="dropdown-header">
+            <div id="cmd1icon" class="icon-wrapper"></div>
+            <input type="text" class="dropdown-search" id="cmd1-search" placeholder="Search Command 1" onclick="toggleDropdown(this.closest('.custom-dropdown'))" oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown-list"></div>
+    </div>
+</div>
+
+<div class="dropdown-wrapper">
+    <label for="cmd2-search">
+        SLOT <span class="text-orange">2</span>
+    </label>
+    <div class="custom-dropdown disabled" data-dropdown="cmd2">
+        <div class="dropdown-header">
+            <div id="cmd2icon" class="icon-wrapper"></div>
+            <input type="text" class="dropdown-search" id="cmd2-search" placeholder="Search Command 2" onclick="toggleDropdown(this.closest('.custom-dropdown'))" oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown-list"></div>
+    </div>
+</div>
+
+<div class="dropdown-wrapper item-dropdown-wrapper">
+    <label for="crystal-search">ITEM</label>
+    <div class="custom-dropdown" data-dropdown="crystal">
+        <div class="dropdown-header">
+            <div id="itemicon" class="icon-wrapper"><img src="images/item-gray.png" alt="Item" class="type-icon" /></div>
+            <input type="text" class="dropdown-search" id="crystal-search" placeholder="Search Crystal" onclick="toggleDropdown(this.closest('.custom-dropdown'))" oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown-list"></div>
+    </div>
+</div>
+
+<button onclick="fuseCommands()">FUSE</button>
+</div>
+</div>
+
+<!-- Reverse Mode (Result to Ingredients) -->
+<div id="reverse-mode-container" style="display: none;">
+<div class="content">
+<h2>FIND RECIPES</h2>
+<div class="dropdown-wrapper">
+    <label for="result-cmd-search">
+        COMMAND
+    </label>
+    <div class="custom-dropdown" data-dropdown="result-cmd">
+        <div class="dropdown-header">
+            <div id="result-cmd-icon" class="icon-wrapper"></div>
+            <input type="text" class="dropdown-search" id="result-cmd-search" placeholder="Search for Command" onclick="toggleDropdown(this.closest('.custom-dropdown'))" oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown-list"></div>
+    </div>
+</div>
+
+<div class="dropdown-wrapper item-dropdown-wrapper">
+    <label for="reverse-crystal-search">ITEM</label>
+    <div class="custom-dropdown" data-dropdown="reverse-crystal">
+        <div class="dropdown-header">
+            <div id="reverse-itemicon" class="icon-wrapper"><img src="images/item-gray.png" alt="Item" class="type-icon" /></div>
+            <input type="text" class="dropdown-search" id="reverse-crystal-search" placeholder="Search Crystal" onclick="toggleDropdown(this.closest('.custom-dropdown'))" oninput="filterDropdownItems(this.closest('.custom-dropdown'))" />
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown-list"></div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<section id="command-list-wrapper">
+<div class="content">
+<h2>COMMANDS</h2>
+<div id="result"></div>
+<div id="ingredients-result"></div>
+</div>
+</section>
+</main>
+</div>
+
+<script src="/scripts/calculator.js"></script>
+
+
+   <footer>
+        <div class="container">
+                        <div class="footer-nav">
+                <a href="/faqs">FAQs</a>
+                <a href="/why">Why Use This Website?</a>
+                <a href="/beginners-guide">Beginner’s Guide</a>
+                <a href="/terra-early-guide">Terra's Early Guide</a>
+                <a href="/ventus-early-guide">Ven's Early Guide</a>
+                <a href="/aqua-early-guide">Aqua's Early Guide</a>
+            </div>
+        </div>
+        <div class="container">
+            <p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
+                Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
+                logos, images, and other copyrighted materials displayed on this website are the property of their
+                respective owners.</p>
+            <a href="/privacy">Privacy Policy</a> |
+            <a href="/terms">Terms of Use</a>
+        </div>
+    </footer>
+    <div id="cookie-banner">
+        <div class="container">
+            <p>We use cookies to analyze traffic and improve your experience. By clicking "Accept," you consent
+                to our use of cookies.</p>
+            <div class="cookie-buttons" style="margin-top:1rem">
+                <button id="accept-cookies">Accept</button>
+                <button id="decline-cookies">Decline</button>
+            </div>
+        </div>
+    </div>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYNVRTZP4F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        // Disable GA4 by default
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'analytics_storage': 'denied'
+        });
+
+        // Check if the user has accepted cookies
+        if (localStorage.getItem('cookieConsent') === 'accepted') {
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+            });
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-BYNVRTZP4F');
+    </script>
+
+    <script>
+        // Check if the user has already consented
+        if (!localStorage.getItem('cookieConsent')) {
+            document.getElementById('cookie-banner').style.display = 'block';
+        }
+
+        // Handle accept button
+        document.getElementById('accept-cookies').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', 'accepted');
+            document.getElementById('cookie-banner').style.display = 'none';
+            // Enable GA4
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'analytics_storage': 'granted'
+            });
+        });
+
+        // Handle decline button
+        document.getElementById('decline-cookies').addEventListener('click', function () {
+            localStorage.setItem('cookieConsent', 'declined');
+            document.getElementById('cookie-banner').style.display = 'none';
+            // Keep GA4 disabled
+            gtag('consent', 'update', {
+                'ad_storage': 'denied',
+                'analytics_storage': 'denied'
+            });
+        });
+    </script>
+</body>
+
+</html>

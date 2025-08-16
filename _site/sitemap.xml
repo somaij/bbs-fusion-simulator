@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/aqua-early-guide.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/beginners-guide.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blitz.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/faqs.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/privacy.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/terms.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/terra-early-guide.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/ventus-early-guide.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/why.html</loc>
+</url>
+</urlset>
