@@ -1,0 +1,5 @@
+name: Kingdom Hearts Birth by Sleep Melding Calculator
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from

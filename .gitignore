@@ -1,0 +1,16 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+
+# Gemfile.lock (optional, but recommended to keep it for consistent builds)
+# Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
