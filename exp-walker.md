@@ -37,19 +37,19 @@ description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step
         </thead>
         <tbody>
           <tr>
-            <td>Aero + Blizzard</td>
-            <td>Blizzara (with EXP Walker)</td>
+            <td data-label="Ingredients">Aero + Blizzard</td>
+            <td data-label="Result">Blizzara (with EXP Walker)</td>
             <td><a href="/?mode=simulator&cmd1=Aero&cmd2=Blizzard&crystal=Abounding">Simulate</a></td>
           </tr>
           <tr>
-            <td>Binding Strike + Blizzaga</td>
-            <td>Deep Freeze (with EXP Walker)</td>
-            <td><a href="/?mode=simulator&cmd1=Binding%20Strike&cmd2=Blizzaga&crystal=Abounding">Simulate</a></td>
+            <td data-label="Ingredients">Binding Strike + Blizzaga</td>
+            <td data-label="Result">Deep Freeze (with EXP Walker)</td>
+            <td data-label="Try it"><a href="/?mode=simulator&cmd1=Binding%20Strike&cmd2=Blizzaga&crystal=Abounding">Simulate</a></td>
           </tr>
           <tr>
-            <td>Curaga + Block/Barrier</td>
-            <td>Renewal Block/Barrier (with EXP Walker)</td>
-            <td><a href="/?mode=simulator&cmd1=Curaga&cmd2=Block&crystal=Abounding">Simulate</a></td>
+            <td data-label="Ingredients">Curaga + Block/Barrier</td>
+            <td data-label="Result">Renewal Block/Barrier (with EXP Walker)</td>
+            <td data-label="Try it"><a href="/?mode=simulator&cmd1=Curaga&cmd2=Block&crystal=Abounding">Simulate</a></td>
           </tr>
         </tbody>
       </table>
@@ -66,16 +66,16 @@ description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step
         </thead>
         <tbody>
           <tr>
-            <td>Strike Raid + Sliding Dash</td>
-            <td>Payback Raid (with EXP Walker)</td>
-            <td>Ventus</td>
-            <td><a href="/?mode=simulator&cmd1=Strike%20Raid&cmd2=Sliding%20Dash&crystal=Abounding">Simulate</a></td>
+            <td data-label="Ingredients">Strike Raid + Sliding Dash</td>
+            <td data-label="Result">Payback Raid (with EXP Walker)</td>
+            <td data-label="Character">Ventus</td>
+            <td data-label="Try it"><a href="/?mode=simulator&cmd1=Strike%20Raid&cmd2=Sliding%20Dash&crystal=Abounding">Simulate</a></td>
           </tr>
           <tr>
-            <td>Sliding Dash + Counter Hammer</td>
-            <td>Payback Fang (with EXP Walker)</td>
-            <td>Terra</td>
-            <td><a href="/?mode=simulator&cmd1=Sliding%20Dash&cmd2=Counter%20Hammer&crystal=Abounding">Simulate</a></td>
+            <td data-label="Ingredients">Sliding Dash + Counter Hammer</td>
+            <td data-label="Result">Payback Fang (with EXP Walker)</td>
+            <td data-label="Character">Terra</td>
+            <td data-label="Try it"><a href="/?mode=simulator&cmd1=Sliding%20Dash&cmd2=Counter%20Hammer&crystal=Abounding">Simulate</a></td>
           </tr>
         </tbody>
       </table>
