@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Second Chance in Kingdom Hearts: Birth by Sleep"
-description: "Survive any battle with Second Chance! Learn the essential melding recipes, see the best characters for it, and get tips on how to unlock this critical ability early in Kingdom Hearts: Birth by Sleep."
+description: "Survive any battle with Second Chance! Learn the essential melding recipe  and get tips on how to unlock this critical ability early in Kingdom Hearts: Birth by Sleep."
 ---
 
 <section id="why-content">

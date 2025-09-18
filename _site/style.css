@@ -111,11 +111,8 @@ nav .links{
 }
 
 .nav-dropbtn {
-    background-color: rgba(255,255,255,0.3);
     padding: 16px;
     font-size: 16px;
-    border: none;
-    cursor: pointer;
     font-family: "KHMenu", Arial, sans-serif;
     text-shadow: var(--title-text-shadow);
     transition:250ms all ease;
@@ -125,7 +122,9 @@ nav .links{
       visibility: hidden;
   opacity: 0;
   position: absolute;
-   display: none;
+  height: 0;
+  overflow: hidden;
+   /* display: none; */
    right: 0;
    text-align: right;
   transition: all 0.5s ease;
@@ -134,10 +133,11 @@ nav .links{
     z-index: 3;
     backdrop-filter: blur(20px);
     border:1px solid rgba(255,255,255,0.25);
+    border-radius: 1rem;
 }
 
 .nav-dropdown-content a {
-    padding: 0.75rem;
+    padding: 0.65rem;
     border-top:1px solid rgba(255,255,255,0.25);
     text-decoration: none;
     display: block;
@@ -154,6 +154,7 @@ nav .links{
 .nav-dropdown:hover > .nav-dropdown-content,
 .nav-dropdown:focus-within > .nav-dropdown-content,
 .nav-dropdown-content:hover {
+    height: auto;
   visibility: visible;
   opacity: 1;
   display: block;
@@ -989,7 +990,7 @@ footer .footer-nav a:hover {
 
 #accept-cookies,
 #decline-cookies,
-a.btn {
+.btn {
     display: inline-block;
     text-decoration: none;
     color: #FFF;
@@ -1005,7 +1006,7 @@ a.btn {
 
 #accept-cookies:hover,
 #decline-cookies:hover,
-a.btn:hover {
+.btn:hover {
     color:#FFF;
     background: linear-gradient(0deg, rgba(154, 1, 2, 1) 0%, rgba(126, 2, 0, 1) 100%);
     border: 2px solid var(--deep-red);
