@@ -76,7 +76,7 @@ seo:
 <div class="faq">
 <h3>Why Melding is Important (Especially for Beginners)</h3>
 <ul>
-<li><strong>Unlock Critical Survival Abilities:</strong> Some abilities — like <em>Second Chance</em> and <em>Once More</em> — are only obtainable through melding and are required for surviving boss fights on higher difficulties.</li>
+<li><strong>Unlock Critical Survival Abilities:</strong> Abilities like <a href="/second-chance">Second Chance</a> and <a href="/once-more">Once More</a> are only obtainable through melding and are required for surviving boss fights on higher difficulties.</li>
 <li><strong>Permanent Passive Boosts:</strong> When you fully level up a command that has an ability, you keep that ability permanently, even after swapping out the command.</li>
 <li><strong>Customize Your Playstyle:</strong> Whether you want to focus on magic, melee, or defense, melding lets you shape your character’s strengths.</li>
 </ul>
@@ -104,7 +104,7 @@ seo:
     <th>Effect</th>
     <th>Example Meld</th>
     <th>Crystal Needed</th>
-    <th>Link</th>
+    <th>Tutorial</th>
 </tr>
 </thead>
 <tbody>
@@ -113,21 +113,21 @@ seo:
     <td data-label="Description">Survive any combo with 1 HP remaining.</td>
     <td data-label="Ingredients">Blizzara + Blizzara</td>
     <td data-label="Crystal">Pulsing</td>
-    <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Blizzara&cmd2=Blizzara&crystal=Pulsing">Try meld</a></td>
+    <td data-label="Tutorial"><a href="/second-chance">Read more</a></td>
 </tr>
 <tr>
     <td data-label="Ability">Once More</td>
     <td data-label="Description">Survive multi-hit combos with 1 HP remaining.</td>
     <td data-label="Ingredients">Fira + Fira</td>
     <td data-label="Crystal">Wellspring</td>
-    <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fira&cmd2=Fira&crystal=Wellspring">Try meld</a></td>
+    <td data-label="Tutorial"><a href="/once-more">Read more</a></td>
 </tr>
 <tr>
     <td data-label="Ability">Leaf Bracer</td>
     <td data-label="Description">Prevents interruption while using Cure commands.</td>
     <td data-label="Ingredients">Fire Dash + Fira</td>
     <td data-label="Crystal">Pulsing</td>
-    <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fire%20Dash&cmd2=Fira&crystal=Pulsing">Try meld</a></td>
+    <td data-label="Tutorial"><a href="/leaf-bracer">Read more</a></td>
 </tr>
 </tbody>
 </table>
@@ -138,12 +138,12 @@ seo:
 <p>Crystals determine the passive ability that will be attached to your newly melded command. Each crystal type influences the type of ability you receive. Here's what each one provides:</p>
 <ul>
 <li><strong>Shimmering:</strong> Grants elemental damage abilities such as Fire Boost, Blizzard Boost, and various elemental damage reduction (like Fire Screen) that reduce damage from specific elements.</li>
-<li><strong>Pulsing:</strong> Provides powerful defensive and offensive abilities such as Second Chance, Leaf Bracer, Finish Boost, and Combo F Boost.</li>
-<li><strong>Wellspring:</strong> Unlocks supportive offensive abilities like Combo Plus and Air Combo Plus, as well as the critical survival skill, Once More.</li>
+<li><strong>Pulsing:</strong> Provides powerful defensive and offensive abilities such as <a href="/second-chance">Second Chance</a>, <a href="/leaf-bracer">Leaf Bracer</a>, Finish Boost, and Combo F Boost.</li>
+<li><strong>Wellspring:</strong> Unlocks supportive offensive abilities like Combo Plus and Air Combo Plus, as well as the critical survival skill, <a href="/once-more">Once More</a>.</li>
 <li><strong>Fleeting:</strong> Improves command recharge speed with abilities such as Attack Haste, Magic Haste, and Reload Boost.</li>
 <li><strong>Hungry:</strong> Enhances prize collection with abilities like HP Prize Plus and Treasure Magnet, increasing the number and pull range of dropped prizes.</li>
 <li><strong>Soothing:</strong> Boosts survivability with defensive support abilities like HP Boost, Defender, and Damage Syphon, which helps restore focus or health.</li>
-<li><strong>Abounding:</strong> Offers rare and growth-based abilities such as EXP Chance, EXP Walker, and Lucky Strike to improve drop quality and experience gains.</li>
+<li><strong>Abounding:</strong> Offers rare and growth-based abilities such as EXP Chance, <a href="/exp-walker">EXP Walker</a>, and Lucky Strike to improve drop quality and experience gains.</li>
 </ul>
 </div>
 

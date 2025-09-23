@@ -64,7 +64,7 @@ const commandTypes = {
 			"Stop": "Magic",
 			"Stopga": "Magic",
 			"Stopra": "Magic",
-			"Strike Raid": "Magic",
+			"Strike Raid": "Physical",
 			"Stun Block": "Defense",
 			"Stun Edge": "Physical",
 			"Thundaga": "Magic",
