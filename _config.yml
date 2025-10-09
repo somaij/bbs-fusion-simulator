@@ -3,3 +3,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+include:
+  - ads.txt
+  - CNAME
