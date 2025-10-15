@@ -1031,10 +1031,16 @@ footer .footer-nav a:hover {
     align-items: center;
     justify-content: center;
 }
-.ad-wrapper .ad-box{
-    width: 320px; 
-    height: 100px;
-}
+    .ad-container {
+        max-height: 50px;
+        overflow: hidden;
+    }
+    
+    @media (min-width: 768px) {
+        .ad-container {
+            max-height: 90px;
+        }
+    }
 @media(min-width: 500px) { .ad-wrapper .ad-box { width: 468px; height: 60px; } }
 @media(min-width: 800px) { .ad-wrapper .ad-box { width: 728px; height: 90px; } }
 
