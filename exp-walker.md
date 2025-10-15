@@ -11,6 +11,9 @@ description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step
       <p>If you’ve ever wanted to level up without grinding endlessly, <strong>EXP Walker</strong> is the perfect ability. 
       Once you unlock it, simply walking around earns you experience. It sounds too good to be true, but it’s one of the 
       most useful abilities in <em>Kingdom Hearts Birth by Sleep</em>, especially if you don’t like farming mobs for hours.</p>
+      <div class="ad-wrapper">
+          {% include adsense_manual_display_horizontal.html %}
+      </div>
       <p>I still remember the first time I got EXP Walker, I couldn’t believe how quickly my levels shot up just by running 
       circles around a safe room. Here’s how you can get it too.</p>
       <h2>Step 1: Find an Abounding Crystal</h2>

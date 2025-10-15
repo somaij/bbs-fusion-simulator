@@ -135,6 +135,9 @@ essential survival abilities for late-game bosses. This is also the perfect time
 with <strong>Blizzard Boost</strong> and <strong>Thunder Boost</strong>. Be sure to save your
 <strong>Wellspring Crystal</strong> as you’ll only find one before reaching the third world.
 </p>
+<div class="ad-wrapper">
+                {% include adsense_manual_display_horizontal.html %}
+            </div>
 <h2>🪓 Dwarf Woodlands</h2>
 <p><strong>Available Commands: Cure, Fire, Magnet</strong></p>
 <table>

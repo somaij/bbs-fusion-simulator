@@ -114,6 +114,9 @@ seo:
 	<div class="container">
 		<div class="text">
 			<h1>FAQs About Kingdom Hearts Birth by Sleep Command Melding</h1>
+      <div class="ad-wrapper">
+                {% include adsense_manual_display_horizontal.html %}
+            </div>
 			<div class="faq">
 				<h3>What is melding in KH BBS?</h3>
 				<p>In Kingdom Hearts Birth by Sleep, it's possible to meld (combine) commands to create new and

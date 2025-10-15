@@ -113,6 +113,9 @@ seo:
                 </tbody>
             </table>
             <p>In this early world, Ventus can access Shimmering and Soothing crystals, ideal for gaining elemental boosts like Fire Boost or Blizzard Boost and HP Boost for survivability. While these crystals don’t unlock top-tier abilities like Second Chance, they’re perfect for powering up Ventus’ strong magic attacks. Unlike Terra, Ventus benefits more from elemental damage, making this a great time to build a magic-heavy deck that clears mobs faster and prepares you for tougher encounters.</p>
+            <div class="ad-wrapper">
+                {% include adsense_manual_display_horizontal.html %}
+            </div>
             <h2>👠 Castle of Dreams</h2>
             <p><strong>Buyable:</strong> Cure, Bind<br>
                 <strong>Chest:</strong> Stun Edge<br>

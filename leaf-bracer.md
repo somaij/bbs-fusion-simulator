@@ -14,6 +14,9 @@ description: "Learn how to unlock Leaf Bracer in KH BBS with easy early melds an
     which means enemies can’t interrupt your healing. I can’t count the number of times this saved me during a boss combo —
     the heal went off safely even while surrounded.
 </p>
+<div class="ad-wrapper">
+                {% include adsense_manual_display_horizontal.html %}
+            </div>
 
 <h2>Step 1: Find a Pulsing Crystal</h2>
 <p>
