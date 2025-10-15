@@ -9,9 +9,7 @@ description: Use this KH BBS Melding Calculator to simulate command fusions, dis
 <img src="/images/blue-heart.png" alt="Kingdom Hearts Birth by Sleep logo">
 <h1>Birth by Sleep Melding Assistant</h1>
 </div>
-<div class="ad-wrapper">
-    {% include adsense_manual_display_horizontal.html %}
-</div>
+
 <div class="text">
 <p>Welcome to the ultimate Command Fusion Simulator for Kingdom Hearts Birth by Sleep! This tool helps
 you mix and match different commands, view fusion odds, and discover bonus abilities. No more
@@ -22,6 +20,9 @@ Select your ingredients below and see the results instantly.</p>
 Let's D-Link and help you find the commands you want to meld.
 </p>
 </div>
+</div>
+<div class="ad-wrapper">
+    {% include adsense_manual_display_horizontal.html %}
 </div>
 <div class="search-mode-toggle-container">
 
