@@ -1027,7 +1027,16 @@ footer .footer-nav a:hover {
     padding: 1rem;
     border:1px solid var(--bg-yellow);
     max-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.ad-wrapper .ad-box{
+    width: 320px; 
+    height: 100px;
+}
+@media(min-width: 500px) { .ad-wrapper .ad-box { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .ad-wrapper .ad-box { width: 728px; height: 90px; } }
 
 @media screen and (max-width:991px) {
     .logo-wrapper {
