@@ -92,7 +92,9 @@ seo:
 <li>Confirm the meld to create the new command!</li>
 </ol>
 </div>
-
+<div class="ad-wrapper">
+    {% include adsense_manual_display_horizontal.html %}
+</div>
 <div class="faq">
 <h3>Best Abilities to Get Early (For Any Character)</h3>
 <p>Here are some of the most useful abilities beginners should prioritize — no matter which character you play:</p>

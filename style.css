@@ -1022,6 +1022,10 @@ footer .footer-nav a:hover {
     color: var(--bg-yellow);
 }
 
+.ad-wrapper{
+    margin:1rem 0;
+}
+
 @media screen and (max-width:991px) {
     .logo-wrapper {
         margin-bottom: 2rem;
