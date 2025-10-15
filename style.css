@@ -1029,6 +1029,22 @@ footer .footer-nav a:hover {
     height: 90px;
 }
 
+
+  @media (min-width: 350px) {
+    .ad-box {
+      height: 180px;
+    }
+ @media (min-width: 500px) {
+    .ad-box {
+      height: 130px;
+    }
+  }
+ @media (min-width: 800px) {
+    .ad-box {
+      height: 200px;
+    }
+  }
+
 @media screen and (max-width:991px) {
     .logo-wrapper {
         margin-bottom: 2rem;
