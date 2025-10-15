@@ -2,11 +2,34 @@
      crossorigin="anonymous"></script>
 <!-- Horizontal banner -->
 <ins class="adsbygoogle"
-     style="display:block;min-width:400px;max-width:970px;width:100%;height:90px"
+     style="display:block"
      data-ad-client="ca-pub-7650631025891864"
-     data-ad-slot="5024560180"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+     data-ad-slot="5024560180"></ins>
+    <script>
+    /* * This is the official Google method to define different sizes 
+     * based on screen width (media queries)
+     */
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-7650631025891864",
+        enable_page_level_ads: true,
+        
+        // Define sizes based on screen width
+        overlays: {
+            ads: {
+                // Mobile: Load a small, flat 320x50 banner
+                "min-width": "0px", 
+                "max-width": "767px", 
+                "slotname": "5024560180", 
+                "width": 320, 
+                "height": 50 
+            },
+            {
+                // Desktop: Load a wide, flat 728x90 leaderboard
+                "min-width": "768px", 
+                "slotname": "5024560180", 
+                "width": 728, 
+                "height": 90 
+            }
+        }
+    });
+    </script>
