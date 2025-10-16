@@ -21,9 +21,6 @@ Let's D-Link and help you find the commands you want to meld.
 </p>
 </div>
 </div>
-<div class="ad-wrapper">
-    {% include adsense_manual_display_horizontal.html %}
-</div>
 <div class="search-mode-toggle-container">
 
 <div class="radio-wrapper">
@@ -145,6 +142,9 @@ Let's D-Link and help you find the commands you want to meld.
 </div>
 </section>
 </main>
+<div class="ad-wrapper">
+    {% include adsense_manual_display_horizontal.html %}
+</div>
 </div>
 
 <script src="{{ site.baseurl }}/scripts/calculator.js"></script>
