@@ -53,8 +53,18 @@
 		<div class="sq sq-run-3"></div>
 		<div class="sq sq-rerun-1"></div>
 	</div>
-
-     {{ content }}
+    <div class="content-with-ads">
+        <div class="ad-vertical ad-vertical-left">
+            <div class="ad-wrapper">{% include adsense_manual_display_vertical_1.html %}</div>
+        </div>
+        <div class="content">
+            {{ content }}
+        </div>
+                <div class="ad-vertical ad-vertical-right">
+            <div class="ad-wrapper">{% include adsense_manual_display_vertical_2.html %}</div>
+        </div>
+    </div>
+     
    <footer>
         <div class="container">
                         <div class="footer-nav">
