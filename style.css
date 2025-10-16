@@ -1065,17 +1065,24 @@ footer .footer-nav a:hover {
 }
 
   @media (min-width: 350px) {
-    .ad-box {
+    .ad-box, .ad-vertical {
       height: 180px;
     }
+    
  @media (min-width: 500px) {
     .ad-box {
       height: 130px;
+    }
+    .ad-vertical{
+        height: 250px;
     }
   }
  @media (min-width: 800px) {
     .ad-box {
       height: 200px;
+    }
+    .ad-vertical{
+        height: 620px;
     }
   }
 
