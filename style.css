@@ -1215,8 +1215,13 @@ footer .footer-nav a:hover {
 
 @media screen and (max-width:575px) {
     body{
-        padding:4rem;
+        padding:4px;
     }
+    #accept-cookies,
+#decline-cookies,
+.btn{
+    padding:0.75rem 2rem;
+}
     .ad-wrapper{
         margin:1rem 0;
         padding:0;
