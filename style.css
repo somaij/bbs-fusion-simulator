@@ -1046,8 +1046,9 @@ footer .footer-nav a:hover {
         grid-template-columns: 1fr; /* Stack columns */
         grid-template-areas: 
             "content"
-            "left-column"
-            "right-column";
+    }
+    .ad-vertical-left, .ad-vertical-right{
+        display: none;
     }
 }
 
