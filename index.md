@@ -10,7 +10,7 @@ description: Use this KH BBS Melding Calculator to simulate command fusions, dis
 <h1>Birth by Sleep Melding Assistant</h1>
 </div>
 
-<div class="ad-wrapper">
+<div>
     {% include adsense_above_calculator_fixed.html %}
 </div>
 <div class="text">
