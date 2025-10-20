@@ -34,7 +34,9 @@ Let's D-Link and help you find the commands you want to meld.
 
 </div>
 
-
+<div class="ad-wrapper">
+    {% include adsense_above_calculator_fixed.html %}
+</div>
 </div>
 <main id="commands-wrapper">
 <section id="meld-menu">
