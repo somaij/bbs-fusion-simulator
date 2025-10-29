@@ -140,7 +140,7 @@ Let's D-Link and help you find the commands you want to meld.
 </div>
 </section>
 </main>
-<div class="ad-wrapper">
+<div class="ad-wrapper-responsive">
     {% include adsense_manual_display_horizontal.html %}
 </div>
 </div>

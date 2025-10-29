@@ -13,7 +13,7 @@ description: "Stop dying to boss combos! This guide shows you how to meld the On
     I still remember the first time a late-game boss locked me in a chain of hits - without Once More, it was game over (ahem, Xehanort!).
     With it equipped, you can hang on with 1 HP and heal or counterattack.
 </p>
-<div class="ad-wrapper">
+<div class="ad-wrapper-responsive">
                 {% include adsense_manual_display_horizontal.html %}
             </div>
 <h2>Step 1: Find a wellspring crystal</h2>

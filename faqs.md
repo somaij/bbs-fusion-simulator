@@ -114,7 +114,7 @@ seo:
 	<div class="container">
 		<div class="text">
 			<h1>FAQs About Kingdom Hearts Birth by Sleep Command Melding</h1>
-      <div class="ad-wrapper">
+      <div class="ad-wrapper-responsive">
                 {% include adsense_manual_display_horizontal.html %}
             </div>
 			<div class="faq">

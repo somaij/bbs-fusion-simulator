@@ -18,7 +18,7 @@ description: "Survive any battle with Second Chance! Learn the essential melding
 <h3>The Difference between Second Chance and Once More</h3>
 
 <p>Second Chance will protect you against one-shot HP bar ending moves, where as Once More will help you survive combo strings.</p>
-<div class="ad-wrapper">
+<div class="ad-wrapper-responsive">
                 {% include adsense_manual_display_horizontal.html %}
             </div>
 <h2>Step 1: Find a pulsing crystal</h2>

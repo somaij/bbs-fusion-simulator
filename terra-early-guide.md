@@ -50,7 +50,7 @@ seo:
                 </tbody>
             </table>
             <p>Getting <strong>Leaf Bracer</strong> early is a huge advantage. It allows you to safely cast Cure without being interrupted, which becomes especially useful once you unlock Cure in the next world. <strong>Combo F Boost</strong> enhances your combo finishers, making battles quicker and more efficient. Meanwhile, <strong>HP Boost</strong> increases your maximum health growth, helping Terra survive longer in tougher encounters.</p>
-            <div class="ad-wrapper">
+            <div class="ad-wrapper-responsive">
                 {% include adsense_manual_display_horizontal.html %}
             </div>
             <h3>🏰 Land of Departure</h3>
