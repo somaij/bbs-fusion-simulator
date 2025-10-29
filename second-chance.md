@@ -18,9 +18,9 @@ description: "Survive any battle with Second Chance! Learn the essential melding
 <h3>The Difference between Second Chance and Once More</h3>
 
 <p>Second Chance will protect you against one-shot HP bar ending moves, where as Once More will help you survive combo strings.</p>
-<div class="ad-wrapper-responsive">
-                {% include adsense_manual_display_horizontal.html %}
-            </div>
+<div class="ad-wrapper-article">
+    {% include adsense_in_article.html %}
+</div>
 <h2>Step 1: Find a pulsing crystal</h2>
 <p>You can only get Second Chance through Command Melding, and it requires a Pulsing Crystal as part of the fusion. It drops mostly from Bruiser type enemies (large Unversed), as early as Enchanted Dominion.</p>
 

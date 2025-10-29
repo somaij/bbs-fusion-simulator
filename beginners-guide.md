@@ -92,8 +92,8 @@ seo:
 <li>Confirm the meld to create the new command!</li>
 </ol>
 </div>
-<div class="ad-wrapper-responsive">
-    {% include adsense_manual_display_horizontal.html %}
+<div class="ad-wrapper-article">
+    {% include adsense_in_article.html %}
 </div>
 <div class="faq">
 <h3>Best Abilities to Get Early (For Any Character)</h3>

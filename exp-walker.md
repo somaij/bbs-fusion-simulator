@@ -11,9 +11,6 @@ description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step
       <p>If you’ve ever wanted to level up without grinding endlessly, <strong>EXP Walker</strong> is the perfect ability. 
       Once you unlock it, simply walking around earns you experience. It sounds too good to be true, but it’s one of the 
       most useful abilities in <em>Kingdom Hearts Birth by Sleep</em>, especially if you don’t like farming mobs for hours.</p>
-      <div class="ad-wrapper-responsive">
-          {% include adsense_manual_display_horizontal.html %}
-      </div>
       <p>I still remember the first time I got EXP Walker, I couldn’t believe how quickly my levels shot up just by running 
       circles around a safe room. Here’s how you can get it too.</p>
       <h2>Step 1: Find an Abounding Crystal</h2>
@@ -23,6 +20,9 @@ description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step
         <li><strong>Deep Space (Launch Deck):</strong> Chest with an Abounding Crystal.</li>
         <li><strong>Neverland (Rainbow Falls, U-shaped ledge):</strong> Another chest with an Abounding Crystal.</li>
       </ul>
+      <div class="ad-wrapper-article">
+          {% include adsense_in_article.html %}
+      </div>
       <p>If you’re like me, you might want to grab both just in case you mess up a meld.</p>
       <p>You could get lucky and get a drop from the annoying Mandrakes in Radiant Garden as well.</p>
       <h2>Step 2: Use Abounding Crystal in a Meld</h2>

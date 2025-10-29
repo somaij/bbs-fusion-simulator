@@ -114,9 +114,6 @@ seo:
 	<div class="container">
 		<div class="text">
 			<h1>FAQs About Kingdom Hearts Birth by Sleep Command Melding</h1>
-      <div class="ad-wrapper-responsive">
-                {% include adsense_manual_display_horizontal.html %}
-            </div>
 			<div class="faq">
 				<h3>What is melding in KH BBS?</h3>
 				<p>In Kingdom Hearts Birth by Sleep, it's possible to meld (combine) commands to create new and
@@ -136,6 +133,9 @@ seo:
 				<h3>What do Crystals do in Command Melding?</h3>
 				<p>Crystals determine what ability will be attached to the newly created command.</p>
 			</div>
+      <div class="ad-wrapper-article">
+          {% include adsense_in_article.html %}
+      </div>
 			<div class="faq">
 				<h3>How do I get Second Chance?</h3>
 				<p>Second Chance is a powerful ability that lets you survive a strong attack with 1 HP. The most

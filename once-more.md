@@ -13,12 +13,11 @@ description: "Stop dying to boss combos! This guide shows you how to meld the On
     I still remember the first time a late-game boss locked me in a chain of hits - without Once More, it was game over (ahem, Xehanort!).
     With it equipped, you can hang on with 1 HP and heal or counterattack.
 </p>
-<div class="ad-wrapper-responsive">
-                {% include adsense_manual_display_horizontal.html %}
-            </div>
 <h2>Step 1: Find a wellspring crystal</h2>
 <p>You can only get Once More through Command Melding, and it requires a Wellspring Crystal as part of the fusion. It drops mostly from Scrapper Unversed as early as Enchanted Dominion, or Triple Wrecker in Neverland.</p>
-
+<div class="ad-wrapper-article">
+    {% include adsense_in_article.html %}
+</div>
 <h2>Step 2: Melding Once More</h2>
 <p>
     You’ll need to fuse commands with a <strong>Wellspring Crystal</strong>. Here are some of the basic recipes for all characters:

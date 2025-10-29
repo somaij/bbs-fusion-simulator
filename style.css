@@ -1058,16 +1058,17 @@ footer .footer-nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border:1px solid #FFF;
-    background-color: rgba(255,255,255,0.75); */
-    z-index: 5;
 }
 .ad-wrapper-responsive{
     margin:2rem 0;
     padding: 1rem;
     border:1px solid #FFF;
     background-color: rgba(255,255,255,0.75);
-    z-index: 5;
+    text-align: center;
+}
+.ad-wrapper-article{
+    margin:2rem 0;
+    padding: 1rem;
     text-align: center;
 }
 .ad-vertical.ad-vertical-left .ad-wrapper{

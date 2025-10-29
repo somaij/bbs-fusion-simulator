@@ -53,7 +53,9 @@ seo:
         </tbody>
     </table>
 </div>
-
+<div class="ad-wrapper-article">
+    {% include adsense_in_article.html %}
+</div>
 <div class="faq">
     <h3>Which Crystal Should You Use?</h3>
     <p>If you're going for Blitz, here are the crystals I personally recommend:</p>
