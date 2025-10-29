@@ -53,6 +53,9 @@
 		<div class="sq sq-run-3"></div>
 		<div class="sq sq-rerun-1"></div>
 	</div>
+    <div>
+        {% include adsense_above_calculator_fixed.html %}
+    </div>
     <div class="content-with-ads">
         <div class="ad-vertical ad-vertical-left">
             <div class="ad-wrapper">{% include adsense_manual_display_vertical_1.html %}</div>
@@ -60,11 +63,13 @@
         <div class="content">
             {{ content }}
         </div>
-                <div class="ad-vertical ad-vertical-right">
+        <div class="ad-vertical ad-vertical-right">
             <div class="ad-wrapper">{% include adsense_manual_display_vertical_2.html %}</div>
         </div>
     </div>
-     
+    <div class="ad-wrapper">
+          {% include adsense_above_footer_multiplex.html %}
+    </div>
    <footer>
         <div class="container">
                         <div class="footer-nav">
