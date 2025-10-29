@@ -1026,7 +1026,7 @@ footer .footer-nav a:hover {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     grid-template-areas: "left-column content right-column";
-    gap:1rem;
+    gap:8rem;
 }
 
 .ad-vertical-left{
