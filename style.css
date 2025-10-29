@@ -1063,9 +1063,11 @@ footer .footer-nav a:hover {
     z-index: 5;
 }
 .ad-wrapper-responsive{
+    margin:2rem 0;
     padding: 1rem;
-        border:1px solid #FFF;
+    border:1px solid #FFF;
     background-color: rgba(255,255,255,0.75);
+    z-index: 5;
 }
 .ad-vertical.ad-vertical-left .ad-wrapper{
     justify-content: flex-end;
