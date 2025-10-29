@@ -1068,6 +1068,7 @@ footer .footer-nav a:hover {
     border:1px solid #FFF;
     background-color: rgba(255,255,255,0.75);
     z-index: 5;
+    text-align: center;
 }
 .ad-vertical.ad-vertical-left .ad-wrapper{
     justify-content: flex-end;
