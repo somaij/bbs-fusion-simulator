@@ -1059,15 +1059,16 @@ footer .footer-nav a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     /* border:1px solid #FFF;
     background-color: rgba(255,255,255,0.75); */
     z-index: 5;
 }
-.ad-vertical .ad-vertical-left .ad-wrapper{
+.ad-vertical.ad-vertical-left .ad-wrapper{
     justify-content: flex-end;
 }
 
-.ad-vertical .ad-vertical-right .ad-wrapper{
+.ad-vertical.ad-vertical-right .ad-wrapper{
     justify-content: flex-start;
 }
 
