@@ -1063,6 +1063,13 @@ footer .footer-nav a:hover {
     background-color: rgba(255,255,255,0.75); */
     z-index: 5;
 }
+.ad-vertical .ad-vertical-left .ad-wrapper{
+    justify-content: flex-end;
+}
+
+.ad-vertical .ad-vertical-right .ad-wrapper{
+    justify-content: flex-start;
+}
 
 .ad-vertical{
     z-index: 5;
