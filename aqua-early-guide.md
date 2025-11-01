@@ -69,8 +69,7 @@ passive abilities like Second Chance, Once More and Leaf Bracer as early as the 
 </ul>
 <h2>👠 Castle of Dreams</h2>
 <p><strong>Available Commands</strong>: Sliding Dash, Sleep, Poison, Confuse, Barrier Surge (Chest)</p>
-<p><strong>Crystals</strong>: Pulsing, Fleeting, Wellspring (Only in chest), Soothing, Shimmering, Hungry
-</p>
+<p><strong>Crystals</strong>: Pulsing, Fleeting, Wellspring (Only in chest), Soothing, Shimmering, Hungry</p>
 <table>
 <thead>
     <tr>
@@ -82,47 +81,48 @@ passive abilities like Second Chance, Once More and Leaf Bracer as early as the 
 </thead>
 <tbody>
     <tr>
-        <td>Blizzard + Quick Blitz</td>
-        <td>Wellspring</td>
-        <td>Blizzard Edge + Air Combo Plus</td>
-        <td><a href="/?mode=simulator&cmd1=Blizzard&cmd2=Quick%20Blitz&crystal=Wellspring">Try meld</a>
-        </td>
-    <tr>
-        <td>Blizzard + Blizzard</td>
-        <td>Shimmering</td>
-        <td>Blizzara + Blizzard Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Blizzard&cmd2=Blizzard&crystal=Shimmering">Try meld</a></td>
-    </tr>
-    <tr>
-        <td>Blizzard Edge + Blizzard</td>
-        <td>Pulsing</td>
-        <td>Blizzara + Leaf Bracer</td>
-        <td><a href="/?mode=simulator&cmd1=Blizzard%20Edge&cmd2=Blizzard&crystal=Pulsing">Try meld</a>
+        <td data-label="Ingredients">Blizzard + Quick Blitz</td>
+        <td data-label="Crystal">Wellspring</td>
+        <td data-label="Ability">Blizzard Edge + Air Combo Plus</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Blizzard&cmd2=Quick%20Blitz&crystal=Wellspring">Try meld</a>
         </td>
     </tr>
     <tr>
-        <td>Blizzara + Blizzara</td>
-        <td>Pulsing</td>
-        <td>Blizzaga + Second Chance</td>
-        <td><a href="/?mode=simulator&cmd1=Blizzara&cmd2=Blizzara&crystal=Pulsing">Try meld</a></td>
+        <td data-label="Ingredients">Blizzard + Blizzard</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Blizzara + Blizzard Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Blizzard&cmd2=Blizzard&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Thunder + Thunder</td>
-        <td>Soothing</td>
-        <td>Thundara + HP Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Thunder&cmd2=Thunder&crystal=Soothing">Try meld</a></td>
+        <td data-label="Ingredients">Blizzard Edge + Blizzard</td>
+        <td data-label="Crystal">Pulsing</td>
+        <td data-label="Ability">Blizzara + Leaf Bracer</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Blizzard%20Edge&cmd2=Blizzard&crystal=Pulsing">Try meld</a>
+        </td>
     </tr>
     <tr>
-        <td>Thunder + Thunder</td>
-        <td>Shimmering</td>
-        <td>Thundara + Thunder Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Thunder&cmd2=Thunder&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Blizzara + Blizzara</td>
+        <td data-label="Crystal">Pulsing</td>
+        <td data-label="Ability">Blizzaga + Second Chance</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Blizzara&cmd2=Blizzara&crystal=Pulsing">Try meld</a></td>
     </tr>
     <tr>
-        <td>Thundara + Thundara</td>
-        <td>Wellspring</td>
-        <td>Thundaga + Once More</td>
-        <td><a href="/?mode=simulator&cmd1=Thundara&cmd2=Thundara&crystal=Wellspring">Try meld</a></td>
+        <td data-label="Ingredients">Thunder + Thunder</td>
+        <td data-label="Crystal">Soothing</td>
+        <td data-label="Ability">Thundara + HP Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Thunder&cmd2=Thunder&crystal=Soothing">Try meld</a></td>
+    </tr>
+    <tr>
+        <td data-label="Ingredients">Thunder + Thunder</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Thundara + Thunder Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Thunder&cmd2=Thunder&crystal=Shimmering">Try meld</a></td>
+    </tr>
+    <tr>
+        <td data-label="Ingredients">Thundara + Thundara</td>
+        <td data-label="Crystal">Wellspring</td>
+        <td data-label="Ability">Thundaga + Once More</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Thundara&cmd2=Thundara&crystal=Wellspring">Try meld</a></td>
     </tr>
 </tbody>
 </table>
@@ -151,40 +151,40 @@ with <strong>Blizzard Boost</strong> and <strong>Thunder Boost</strong>. Be sure
 </thead>
 <tbody>
     <tr>
-        <td>Cure + Cure</td>
-        <td>Shimmering</td>
-        <td>Cura + Cure Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Cure&cmd2=Cure&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Cure + Cure</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Cura + Cure Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Cure&cmd2=Cure&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Cura + Cura</td>
-        <td>Soothing</td>
-        <td>Curaga + Defender</td>
-        <td><a href="/?mode=simulator&cmd1=Cura&cmd2=Cura&crystal=Soothing">Try meld</a></td>
+        <td data-label="Ingredients">Cura + Cura</td>
+        <td data-label="Crystal">Soothing</td>
+        <td data-label="Ability">Curaga + Defender</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Cura&cmd2=Cura&crystal=Soothing">Try meld</a></td>
     </tr>
     <tr>
-        <td>Fire + Fire</td>
-        <td>Shimmering</td>
-        <td>Fira + Fire Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Fire&cmd2=Fire&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Fire + Fire</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Fira + Fire Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fire&cmd2=Fire&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Fire + Fire</td>
-        <td>Soothing</td>
-        <td>Fira + HP Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Fire&cmd2=Fire&crystal=Soothing">Try meld</a></td>
+        <td data-label="Ingredients">Fire + Fire</td>
+        <td data-label="Crystal">Soothing</td>
+        <td data-label="Ability">Fira + HP Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fire&cmd2=Fire&crystal=Soothing">Try meld</a></td>
     </tr>
     <tr>
-        <td>Fira + Fira</td>
-        <td>Fleeting</td>
-        <td>Firaga + Reload Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Fira&cmd2=Fira&crystal=Fleeting">Try meld</a></td>
+        <td data-label="Ingredients">Fira + Fira</td>
+        <td data-label="Crystal">Fleeting</td>
+        <td data-label="Ability">Firaga + Reload Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fira&cmd2=Fira&crystal=Fleeting">Try meld</a></td>
     </tr>
     <tr>
-        <td>Magnet + Magnet</td>
-        <td>Fleeting</td>
-        <td>Magnera + Magic Haste</td>
-        <td><a href="/?mode=simulator&cmd1=Magnet&cmd2=Magnet&crystal=Fleeting">Try meld</a></td>
+        <td data-label="Ingredients">Magnet + Magnet</td>
+        <td data-label="Crystal">Fleeting</td>
+        <td data-label="Ability">Magnera + Magic Haste</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Magnet&cmd2=Magnet&crystal=Fleeting">Try meld</a></td>
     </tr>
 </tbody>
 </table>
@@ -209,54 +209,54 @@ improve recovery in longer battles.
 </thead>
 <tbody>
     <tr>
-        <td>Zero Gravity + Zero Gravity</td>
-        <td>Fleeting</td>
-        <td>Zero Gravira + Magic Haste</td>
-        <td><a href="/?mode=simulator&cmd1=Zero%20Gravity&cmd2=Zero%20Gravity&crystal=Fleeting">Try
+        <td data-label="Ingredients">Zero Gravity + Zero Gravity</td>
+        <td data-label="Crystal">Fleeting</td>
+        <td data-label="Ability">Zero Gravira + Magic Haste</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Zero%20Gravity&cmd2=Zero%20Gravity&crystal=Fleeting">Try
                 meld</a></td>
     </tr>
     <tr>
-        <td>Zero Gravira + Zero Gravity</td>
-        <td>Pulsing</td>
-        <td>Zero Graviga + Combo F Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Zero%20Gravira&cmd2=Zero%20Gravity&crystal=Pulsing">Try
+        <td data-label="Ingredients">Zero Gravira + Zero Gravity</td>
+        <td data-label="Crystal">Pulsing</td>
+        <td data-label="Ability">Zero Graviga + Combo F Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Zero%20Gravira&cmd2=Zero%20Gravity&crystal=Pulsing">Try
                 meld</a></td>
     </tr>
     <tr>
-        <td>Aero + Aero</td>
-        <td>Wellspring</td>
-        <td>Aerora + Combo Plus</td>
-        <td><a href="/?mode=simulator&cmd1=Aero&cmd2=Aero&crystal=Wellspring">Try meld</a></td>
+        <td data-label="Ingredients">Aero + Aero</td>
+        <td data-label="Crystal">Wellspring</td>
+        <td data-label="Ability">Aerora + Combo Plus</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Aero&cmd2=Aero&crystal=Wellspring">Try meld</a></td>
     </tr>
     <tr>
-        <td>Aero + Aero</td>
-        <td>Shimmering</td>
-        <td>Aerora + Blizzard Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Aero&cmd2=Aero&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Aero + Aero</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Aerora + Blizzard Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Aero&cmd2=Aero&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Aerora + Aerora</td>
-        <td>Shimmering</td>
-        <td>Aeroga + Cure Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Aerora&cmd2=Aerora&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Aerora + Aerora</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Aeroga + Cure Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Aerora&cmd2=Aerora&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Stop + Stop</td>
-        <td>Shimmering</td>
-        <td>Stopra + Thunder Boost</td>
-        <td><a href="/?mode=simulator&cmd1=Stop&cmd2=Stop&crystal=Shimmering">Try meld</a></td>
+        <td data-label="Ingredients">Stop + Stop</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Stopra + Thunder Boost</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Stop&cmd2=Stop&crystal=Shimmering">Try meld</a></td>
     </tr>
     <tr>
-        <td>Stopra + Stop</td>
-        <td>Fleeting</td>
-        <td>Stopga + Magic Haste</td>
-        <td><a href="/?mode=simulator&cmd1=Stopra&cmd2=Stop&crystal=Fleeting">Try meld</a></td>
+        <td data-label="Ingredients">Stopra + Stop</td>
+        <td data-label="Crystal">Fleeting</td>
+        <td data-label="Ability">Stopga + Magic Haste</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Stopra&cmd2=Stop&crystal=Fleeting">Try meld</a></td>
     </tr>
     <tr>
-        <td>Confusion Strike + Fira</td>
-        <td>Shimmering</td>
-        <td>Fire Surge + Dark Screen</td>
-        <td><a href="/?mode=simulator&cmd1=Confusion%20Strike&cmd2=Fire&crystal=Shimmering">Try meld</a>
+        <td data-label="Ingredients">Confusion Strike + Fira</td>
+        <td data-label="Crystal">Shimmering</td>
+        <td data-label="Ability">Fire Surge + Dark Screen</td>
+        <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Confusion%20Strike&cmd2=Fire&crystal=Shimmering">Try meld</a>
         </td>
     </tr>
 </tbody>
