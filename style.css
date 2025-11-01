@@ -1028,6 +1028,7 @@ footer .footer-nav a:hover {
     grid-template-areas: "left-column content right-column";
     gap:3rem;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .ad-vertical-left{
