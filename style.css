@@ -1185,7 +1185,7 @@ footer .footer-nav a:hover {
 @media screen and (max-width:850px) {}
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 821px) {
     nav a.hide-m {
         display: block;
     }
@@ -1195,7 +1195,7 @@ footer .footer-nav a:hover {
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:820px) {
     nav .logo a {
         font-size: 0.6rem;
     }
@@ -1276,7 +1276,7 @@ footer .footer-nav a:hover {
         color: #ccc;
         white-space: nowrap;
     }
-        .content-with-ads {
+    .content-with-ads {
         grid-template-columns: 1fr;
         /* Stack columns */
         grid-template-areas:
