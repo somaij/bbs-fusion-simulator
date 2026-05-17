@@ -98,6 +98,12 @@ description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqu
       a game-changer.</p>
       <h3>How not to become overpowered</h3>
       <p>On critical mode, the game can quickly become a cakewalk if you keep this on. What I like to do is enable Zero EXP until it feels like I'm doing chip damage, and then disable it. That way you can quickly level up when you need to but still keep it challenging.</p>
+      <h2>Related Guides</h2>
+      <ul>
+          <li><a href="/second-chance">How to Get Second Chance</a> — survive any single hit with 1 HP</li>
+          <li><a href="/once-more">How to Get Once More</a> — survive boss combos with 1 HP</li>
+          <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
+      </ul>
     </div>
   </div>
 </section>

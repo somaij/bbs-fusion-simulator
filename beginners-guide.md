@@ -1,5 +1,4 @@
 ---
-title: FAQs
 layout: default
 title: "KH BBS Melding Beginner’s Guide – Crystals, Abilities & Tips"
 description: "New to command melding in KH BBS? This beginner's guide explains crystals, passive abilities, and how to unlock powerful abilities like Second Chance early."

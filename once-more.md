@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "KH: Birth by Sleep Once More Melding Guide"
+title: "How to Get Once More in KH BBS – Meld Recipes for Terra, Ventus & Aqua"
 description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, and Aqua. Survive boss combos with 1 HP — includes Wellspring Crystal locations and early farming tips."
 ---
 
@@ -9,7 +9,7 @@ description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, a
 <div class="text">
 <h1>How to Get <em>Once More</em> in Kingdom Hearts: Birth by Sleep</h1>
 <p>
-    If <strong>Second Chance</strong> saves you from one-hit kills, <strong>Once More</strong> is what lets you survive crazy combos and boss flurries.
+    If <a href="/second-chance"><strong>Second Chance</strong></a> saves you from one-hit kills, <strong>Once More</strong> is what lets you survive crazy combos and boss flurries.
     I still remember the first time a late-game boss locked me in a chain of hits - without Once More, it was game over (ahem, Xehanort!).
     With it equipped, you can hang on with 1 HP and heal or counterattack.
 </p>
@@ -83,10 +83,16 @@ get Once More permanently, even if you remove the command later. You'll be more 
 
 <h3>My Personal Strategy</h3>
 <p>
-    I always prioritize unlocking <strong>Second Chance</strong> first — it saves you from unlucky one-shots that early game bosses tend to do over combos. Then I immediately go for Once More.
+    I always prioritize unlocking <a href="/second-chance"><strong>Second Chance</strong></a> first — it saves you from unlucky one-shots that early game bosses tend to do over combos. Then I immediately go for Once More.
     With both abilities equipped, I felt like the game finally became “fair.” You can take on bosses knowing that no single combo will rob you of a chance to fight back. In my eyes, both Second Chance and Once More are required abilities to take on the final bosses of the game.
 </p>
 
+<h2>Related Guides</h2>
+<ul>
+    <li><a href="/second-chance">How to Get Second Chance</a> — survive any single hit with 1 HP</li>
+    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a> — level up just by walking around</li>
+</ul>
 </div>
 </div>
 </section>

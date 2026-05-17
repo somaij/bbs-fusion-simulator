@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Leaf Bracer Guide – KH BBS: Early Melding Recipes & Pulsing Crystal Tips"
+title: "How to Get Leaf Bracer in KH BBS – Pulsing Crystal Recipes for All Characters"
 description: "Get Leaf Bracer early in KH BBS — exact meld recipes for Terra, Ventus & Aqua using Pulsing Crystals. Never get interrupted while casting Cure again."
 ---
 
@@ -69,10 +69,16 @@ description: "Get Leaf Bracer early in KH BBS — exact meld recipes for Terra, 
 
 <h3>My Personal Strategy</h3>
 <p>
-    I recommend grabbing Leaf Bracer as soon as you find your first Pulsing Crystal. It pairs beautifully with <strong>Second Chance</strong> and <strong>Once More</strong> as the holy trinity of defensive abilities.
+    I recommend grabbing Leaf Bracer as soon as you find your first Pulsing Crystal. It pairs beautifully with <a href="/second-chance"><strong>Second Chance</strong></a> and <a href="/once-more"><strong>Once More</strong></a> as the holy trinity of defensive abilities.
     With Leaf Bracer active, you don’t need to pray for a window to Cure — you can cast in the middle of chaos and still survive.
 </p>
 
+<h2>Related Guides</h2>
+<ul>
+    <li><a href="/second-chance">How to Get Second Chance</a> — survive any single hit with 1 HP</li>
+    <li><a href="/once-more">How to Get Once More</a> — survive boss combos with 1 HP</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a> — level up just by walking around</li>
+</ul>
 </div>
 </div>
 </section>

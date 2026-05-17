@@ -17,7 +17,7 @@ description: "Get Second Chance early in KH BBS — exact meld recipes for Terra
 
 <h3>The Difference between Second Chance and Once More</h3>
 
-<p>Second Chance will protect you against one-shot HP bar ending moves, where as Once More will help you survive combo strings.</p>
+<p>Second Chance will protect you against one-shot HP bar ending moves, where as <a href="/once-more">Once More</a> will help you survive combo strings.</p>
 <div class="ad-wrapper-article">
     {% include adsense_in_article.html %}
 </div>
@@ -97,7 +97,13 @@ obtain Second Chance permanently, even if you remove the command later. You'll b
 
 <h2>My Recommendation</h2>
 
-<p>Don’t wait too long to make this ability. Second Chance and Once More together form the backbone of survival in Birth by Sleep. Once you have them, you’ll feel much more confident experimenting with offensive melds instead of worrying about getting wiped instantly.</p>
+<p>Don’t wait too long to make this ability. Second Chance and <a href="/once-more">Once More</a> together form the backbone of survival in Birth by Sleep. Once you have them, you’ll feel much more confident experimenting with offensive melds instead of worrying about getting wiped instantly.</p>
+<h2>Related Guides</h2>
+<ul>
+    <li><a href="/once-more">How to Get Once More</a> — survive boss combos with 1 HP</li>
+    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a> — level up just by walking around</li>
+</ul>
 </div>
 </div>
 </section>
