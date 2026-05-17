@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Leaf Bracer Guide – KH BBS: Early Melding Recipes & Pulsing Crystal Tips"
-description: "Learn how to unlock Leaf Bracer in KH BBS with easy early melds and Pulsing Crystals. Step-by-step guide, recipes, and tips for safe Cure casting."
+description: "Get Leaf Bracer early in KH BBS — exact meld recipes for Terra, Ventus & Aqua using Pulsing Crystals. Never get interrupted while casting Cure again."
 ---
 
 <section id="why-content">

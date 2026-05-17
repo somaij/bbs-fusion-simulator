@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "KH: Birth by Sleep Once More Melding Guide"
-description: "Stop dying to boss combos! This guide shows you how to meld the Once More ability, find Wellspring Crystals, and master combat in Kingdom Hearts: Birth by Sleep."
+description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, and Aqua. Survive boss combos with 1 HP — includes Wellspring Crystal locations and early farming tips."
 ---
 
 <section id="why-content">

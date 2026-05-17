@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "KH BBS EXP Walker Guide – How to Unlock and Farm EXP Walker"
-description: "Learn how to get EXP Walker in Kingdom Hearts Birth by Sleep. Step-by-step melding guide, farming tips, and why this passive ability is a must-have."
+description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqua. Gain EXP just by walking — level up without grinding. Includes early Shimmering Crystal farming tips."
 ---
 
 <section id="why-content">

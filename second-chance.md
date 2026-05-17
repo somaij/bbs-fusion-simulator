@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "How to Get Second Chance in Kingdom Hearts: Birth by Sleep"
-description: "Survive any battle with Second Chance! Learn the essential melding recipe  and get tips on how to unlock this critical ability early in Kingdom Hearts: Birth by Sleep."
+description: "Get Second Chance early in KH BBS — exact meld recipes for Terra, Ventus & Aqua. Survive any hit with 1 HP on Proud and Critical mode."
 ---
 
 <section id="why-content">
