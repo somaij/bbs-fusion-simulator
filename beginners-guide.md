@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "KH BBS Melding Beginner’s Guide – Crystals, Abilities & Tips"
-description: "New to command melding in KH BBS? This beginner's guide explains crystals, passive abilities, and how to unlock powerful abilities like Second Chance early."
+title: "KH BBS Melding Guide – How Command Melding Works for Beginners"
+description: "A complete KH BBS command melding guide. Learn how crystals work, which abilities to unlock first (Second Chance, Once More, Leaf Bracer), and the best early meld recipes."
 seo:
   type: FAQPage
 ---
@@ -159,6 +159,7 @@ seo:
 </div>
 
 <h2>Start Melding the Smart Way!</h2>
+<p>Want a full list of ingredient combinations? The <a href="/melding-recipes">Melding Recipes Reference</a> covers every key recipe organized by crystal type.</p>
 <p>Now that you understand the basics, you can save time and avoid trial and error by using our <a href="/">Fusion Simulator</a> or <a href="/?mode=find">Find Recipes Mode</a> to plan your perfect melds in advance. Mastering Command Melding is key to surviving tougher battles and bosses in <em>Kingdom Hearts: Birth by Sleep</em>.</p>
 <p>New to Terra’s story? Our beginner’s Terra Melding Guide covers the best commands and melds for the first three worlds, helping you build a strong start and unlock key abilities early.</p>
 <a href="/terra-early-guide" class="btn highlight">Read Terra’s Early Game Melding Guide</a><br><br>
@@ -166,7 +167,7 @@ seo:
 <p>Starting out as Ventus? Here's a beginner’s Ventus Melding Guide that walks you through the best early commands and fusions across the first three worlds, so you can unlock key abilities like Second Chance and Once More right away.</p>
 <a href="/ventus-early-guide" class="btn highlight">Read Ven's Starter Melding Guide</a><br><br>
 <p>Playing as Aqua? Our beginner’s Aqua Melding Guide walks you through the most efficient melds for the first three worlds, so you can quickly unlock essential abilities like Second Chance and Once More.</p>
-<a href="/ventus-early-guide" class="btn highlight">Read Aqua's First 3 World's Melding Guide</a>
+<a href="/aqua-early-guide" class="btn highlight">Read Aqua's First 3 World's Melding Guide</a>
 
 </div>
 

@@ -543,6 +543,7 @@ seo:
 <a href="/" class="btn highlight">Open Meld Calculator</a>
 <br><br>
 <p>New to the game? The <a href="/beginners-guide">Beginner's Melding Guide</a> covers crystals, abilities, and how the system works before you start spending ingredients.</p>
+<p>Need a quick lookup? The <a href="/melding-recipes">Melding Recipes Reference</a> lists every key recipe organized by crystal type.</p>
 
 </div>
 </div>
