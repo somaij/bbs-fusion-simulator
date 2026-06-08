@@ -729,7 +729,9 @@ select option:hover {
 }
 
 #result,
-#ingredients-result {
+#ingredients-result,
+#recoded-result,
+#recoded-ingredients-result {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -755,13 +757,17 @@ select option:hover {
 		} */
 /* width */
 #result::-webkit-scrollbar,
-#ingredients-result::-webkit-scrollbar {
+#ingredients-result::-webkit-scrollbar,
+#recoded-result::-webkit-scrollbar,
+#recoded-ingredients-result::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
 #result::-webkit-scrollbar-track,
-#ingredients-result::-webkit-scrollbar-track {
+#ingredients-result::-webkit-scrollbar-track,
+#recoded-result::-webkit-scrollbar-track,
+#recoded-ingredients-result::-webkit-scrollbar-track {
     border-radius: 8px;
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background: #937714;
@@ -770,7 +776,9 @@ select option:hover {
 
 /* Handle */
 #result::-webkit-scrollbar-thumb,
-#ingredients-result::-webkit-scrollbar-thumb {
+#ingredients-result::-webkit-scrollbar-thumb,
+#recoded-result::-webkit-scrollbar-thumb,
+#recoded-ingredients-result::-webkit-scrollbar-thumb {
     border-radius: 8px;
     transition: 250ms all ease;
     background: #FFDE69;
@@ -778,7 +786,9 @@ select option:hover {
 
 /* Handle on hover */
 #result::-webkit-scrollbar-thumb:hover,
-#ingredients-result::-webkit-scrollbar-thumb:hover {
+#ingredients-result::-webkit-scrollbar-thumb:hover,
+#recoded-result::-webkit-scrollbar-thumb:hover,
+#recoded-ingredients-result::-webkit-scrollbar-thumb:hover {
     background: #FFF;
 }
 
