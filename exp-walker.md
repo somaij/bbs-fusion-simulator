@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/exp-walker"
 layout: default
 title: "KH BBS EXP Walker Guide – How to Unlock and Farm EXP Walker"
 description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqua. Gain EXP just by walking — level up without grinding. Includes early Shimmering Crystal farming tips."

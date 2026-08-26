@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/ventus-early-guide"
 layout: default
 title: "Ventus Melding Guide – Best Early Melds | KH BBS"
 description: "Get Second Chance, Once More, and powerful commands early in KH BBS. This Ventus guide walks you through the best melds for the first three worlds."

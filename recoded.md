@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/recoded"
 layout: recoded
 title: "KH Re:coded Command Synthesis Calculator – All Recipes & Combinations"
 description: "Find every command synthesis recipe in Kingdom Hearts Re:coded. Look up what two commands make, or reverse-search to find all recipes for any command."

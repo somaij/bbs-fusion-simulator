@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/leaf-bracer"
 layout: default
 title: "How to Get Leaf Bracer in KH BBS – Pulsing Crystal Recipes for All Characters"
 description: "Get Leaf Bracer early in KH BBS — exact meld recipes for Terra, Ventus & Aqua using Pulsing Crystals. Never get interrupted while casting Cure again."

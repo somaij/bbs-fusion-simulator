@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/second-chance"
 layout: default
 title: "How to Get Second Chance in Kingdom Hearts: Birth by Sleep"
 description: "Get Second Chance early in KH BBS — exact meld recipes for Terra, Ventus & Aqua. Survive any hit with 1 HP on Proud and Critical mode."

@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/best-commands"
 layout: default
 title: "Most Popular Commands in KH BBS – Best Melds for Terra, Ventus & Aqua"
 description: "The most powerful and popular commands in Kingdom Hearts Birth by Sleep, with full meld recipes for all characters. Covers Curaga, Sonic Blade, Stopga, Mega Flare, and more."

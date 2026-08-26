@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/terra-early-guide"
 layout: default
 title: "KH BBS Terra Melding Guide – Early Commands & Abilities"
 description: "See the best command melds for Terra in KH BBS. Learn how to unlock Second Chance, Leaf Bracer, Combo Plus and more by world, early in your playthrough."

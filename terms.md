@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/terms"
 layout: default
 title: "Terms of Use | KH: BBS Command Fusion Simulator"
 description: "View the Kingdom Hearts: Birth by Sleep Meld Simulator Terms of Use"

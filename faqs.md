@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/faqs"
 layout: default
 title: "KH: Birth by Sleep Fusion Tool – Help & FAQs"
 description: "Find answers to common questions about command melding, passive abilities, and how to use the KH: BBS Fusion Simulator tool more effectively."

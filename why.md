@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/why"
 layout: default
 title: "Why Use This KH BBS Command Melding Calculator – Recipes, Abilities & Results"
 description: "The best KH BBS Command Melding calculator for finding fusion recipes and abilities in Birth by Sleep on PSP, PS3, PS4, PS5, and PC (1.5+2.5 ReMIX). No guesswork needed."

@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/privacy"
 layout: default
 title: "Privacy Policy | KH: BBS Command Fusion Simulator"
 description: "View the Kingdom Hearts: Birth by Sleep Meld Simulator Privacy Policy"

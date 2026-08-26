@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/recoded-early-guide"
 layout: recoded
 title: "KH Re:coded Early Game Guide – Best Command Synthesis Priorities"
 description: "Best command synthesis for early Kingdom Hearts Re:coded. Learn what to combine first in Traverse Town, Wonderland, and Olympus Coliseum to build a strong deck fast."

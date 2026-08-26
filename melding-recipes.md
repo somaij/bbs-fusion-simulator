@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/melding-recipes"
 layout: default
 title: "KH BBS Melding Recipes – Complete Command Reference for All Characters"
 description: "Full melding recipe list for Kingdom Hearts Birth by Sleep. Find the right ingredients and crystal for every key command and ability — for Terra, Ventus, and Aqua."

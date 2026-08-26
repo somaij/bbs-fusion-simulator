@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/crystals"
 layout: default
 title: "KH BBS Crystal Guide – All 7 Crystals, Abilities & Melding Recipes"
 description: "Complete KH BBS ability guide covering all 7 crystal types. Learn which crystals unlock Second Chance, Once More, Leaf Bracer, EXP Walker, and more — plus where to farm each crystal in Birth by Sleep."

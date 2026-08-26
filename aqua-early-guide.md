@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/aqua-early-guide"
 layout: default
 title: "Aqua Melding Guide – Best Early Abilities | KH BBS"
 description: "Looking for the best early melds for Aqua in Kingdom Hearts: Birth by Sleep? This guide shows how to get

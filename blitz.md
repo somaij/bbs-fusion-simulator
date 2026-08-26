@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/blitz"
 layout: default
 title: "How to Get Blitz in KH BBS – Melding Guide & Best Uses"
 description: "Learn how to meld Blitz in Kingdom Hearts Birth by Sleep. This guide shows known recipes, ability pairings, and why Blitz is great for Ventus Terra and Aqua."

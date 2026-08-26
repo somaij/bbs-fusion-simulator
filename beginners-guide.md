@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/beginners-guide"
 layout: default
 title: "KH BBS Melding Guide – How Command Melding Works for Beginners"
 description: "A complete KH BBS command melding guide. Learn how crystals work, which abilities to unlock first (Second Chance, Once More, Leaf Bracer), and the best early meld recipes."

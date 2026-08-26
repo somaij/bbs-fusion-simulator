@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/recoded-best-commands"
 layout: recoded
 title: "Best Commands in KH Re:coded – Top Synthesis Targets"
 description: "The most powerful commands in Kingdom Hearts Re:coded and how to synthesize them. Covers Judgment Triad, Chain Rave, Exo Spark, Cyclone, Curaga, Aeroga, and the pursuit magic chain."

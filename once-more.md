@@ -1,4 +1,5 @@
 ---
+canonical_url: "https://khbbsmelding.com/once-more"
 layout: default
 title: "How to Get Once More in KH BBS – Meld Recipes for Terra, Ventus & Aqua"
 description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, and Aqua. Survive boss combos with 1 HP — includes Wellspring Crystal locations and early farming tips."
