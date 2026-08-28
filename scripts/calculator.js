@@ -3136,23 +3136,6 @@ const commandTypes = {
 				},
 			},
 			{
-				Character: ["Terra"],
-				Commands: "Magnet",
-				Type: "",
-				Ingredient1: "Keyblade Board",
-				Ingredient2: "",
-				Odds: "",
-				abilities: {
-					shimmering: "",
-					fleeting: "",
-					pulsing: "",
-					wellspring: "",
-					soothing: "",
-					hungry: "",
-					abounding: "",
-				},
-			},
-			{
 				Character: ["Terra", "Ventus", "Aqua"],
 				Commands: "Magnera",
 				Type: "K",
