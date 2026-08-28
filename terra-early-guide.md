@@ -83,7 +83,7 @@ seo:
                     </tr>
                 </tbody>
             </table>
-            <p>Getting <strong>Cura</strong> early in Terra’s story is a game-changer—it restores most or all of your HP in one use. When combined with the <strong>Cure Boost</strong> ability, Cura effectively acts as a full heal for the next several worlds. This is also a great point to pick up a second <strong>Combo F Boost</strong> to maximize your finisher damage output.</p>
+            <p>Getting <strong>Cura</strong> early in Terra’s story is a game-changer. It restores most or all of your HP in one use. When combined with the <strong>Cure Boost</strong> ability, Cura effectively acts as a full heal for the next several worlds. This is also a great point to pick up a second <strong>Combo F Boost</strong> to maximize your finisher damage output.</p>
             <h3>👠 Castle of Dreams</h3>
             <p><strong>Available Commands:</strong> Strike Raid, Thunder</p>
             <p><strong>New Crystals:</strong> Wellspring, Hungry, Shimmering</p>
@@ -156,7 +156,7 @@ seo:
                     </tr>
                 </tbody>
             </table>
-            <p>This is where your build starts to come together—melding <strong>Blizzard Edge</strong> and <strong>Air Slide</strong> gives you access to <strong>Second Chance</strong> early, one of the most important defensive abilities in <em>Kingdom Hearts: Birth by Sleep</em>. Unlocking it now prevents late-game frustration.</p>
+            <p>This is where your build starts to come together. Melding <strong>Blizzard Edge</strong> and <strong>Air Slide</strong> gives you access to <strong>Second Chance</strong> early, one of the most important defensive abilities in <em>Kingdom Hearts: Birth by Sleep</em>. Unlocking it now prevents late-game frustration.</p>
             <h3>Tips:</h3>
             <ul>
                 <li>Use <strong>Pulsing Crystals</strong> early to unlock defensive abilities like <em>Second
@@ -165,7 +165,64 @@ seo:
                     or <em>Magnet + Stun Edge</em>.</li>
                 <li>Try to level each command fully before melding to unlock the passive permanently.</li>
             </ul>
-            <p><strong>Want to explore more melds?</strong> <a href="https://khbbsmelding.com/?mode=simulator"
+            <h2 id="best-commands-next">Where to Go Next: Terra's Best Commands</h2>
+<p>Once you are through the first three worlds, the melds worth aiming for change. These are the commands
+    that carry Terra through the rest of the game, with the recipe to actually use for each one.</p>
+<p>You already picked up <a href="/second-chance">Second Chance</a> and <a href="/leaf-bracer">Leaf
+        Bracer</a> from the melds above, so the crystals listed here go after the next tier of abilities
+    instead: combo extensions, finisher damage, elemental boosts and faster reloads.</p>
+<p>One gap worth filling, though. <strong><a href="/once-more">Once More</a> is the one survivability
+        ability the early melds do not cover for Terra</strong>, and four of the five commands below offer it
+    on a Wellspring Crystal: Chaos Blade, Meteor, Dark Firaga and Ars Solum. If you do not have it yet, take
+    Wellspring on whichever of those you build first and come back for the ability in the table afterwards.</p>
+<table>
+    <thead>
+        <tr><th>Command</th><th>Recipe</th><th>Odds</th><th>Crystal</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Command"><a href="/chaos-blade">Chaos Blade</a></td>
+            <td data-label="Recipe">Dark Haze + <a href="/sonic-blade">Sonic Blade</a></td>
+            <td data-label="Odds">90%</td>
+            <td data-label="Crystal">Pulsing for <strong>Finish Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/meteor">Meteor</a></td>
+            <td data-label="Recipe"><a href="/geo-impact">Geo Impact</a> + <a href="/quake">Quake</a></td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Fleeting for <strong>Reload Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/dark-firaga">Dark Firaga</a></td>
+            <td data-label="Recipe">Firaga + Blackout</td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Shimmering for <strong>Fire Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command">Zantetsuken</td>
+            <td data-label="Recipe"><a href="/sonic-blade">Sonic Blade</a> + <a href="/stopga">Stopga</a></td>
+            <td data-label="Odds">80%</td>
+            <td data-label="Crystal">Wellspring for <strong>Air Combo Plus</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/ars-solum">Ars Solum</a></td>
+            <td data-label="Recipe">Dark Haze + Stopga</td>
+            <td data-label="Odds">20%</td>
+            <td data-label="Crystal">Soothing for <strong>Damage Syphon</strong></td>
+        </tr>
+    </tbody>
+</table>
+<p>One warning before you start. <strong>Ars Solum has no guaranteed recipe at all</strong>, 20% is the
+    best you will ever get, and every one of its three recipes competes with a likelier result: Dark Haze +
+    Sonic Blade mostly gives Chaos Blade at 90%, while both Stopga pairs mostly give Zantetsuken at 80%.
+    There is no clean route, so treat Ars Solum as something you collect while building those two rather
+    than a thing you farm directly.</p>
+<p>The Meteor chain is the longest of these. You need three Brutal Blasts in total, two for Geo Impact and
+    one for Quake, and Brutal Blast is only 70% itself. Start farming Stun Edge and <a href="/mine-shield">Mine
+        Shield</a> early if that is your goal.</p>
+<p>Everything on this list plus the commands every character can build is covered on the <a
+        href="/best-commands">best commands guide</a>.</p>
+<p><strong>Want to explore more melds?</strong> <a href="https://khbbsmelding.com/?mode=simulator"
                     target="_blank">Use the Fusion Simulator here</a>.</p>
         </div>
     </div>

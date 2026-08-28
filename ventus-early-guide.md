@@ -188,7 +188,7 @@ seo:
                     <tr>
                         <td data-label="Ingredients">Cura + Cure</td>
                         <td data-label="Crystal">Shimmering</td>
-                        <td data-label="Ability">Curaga + Cure Boost</td>
+                        <td data-label="Ability"><a href="/curaga">Curaga</a> + Cure Boost</td>
                         <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Cura&cmd2=Cure&crystal=Shimmering">Try meld</a></td>
                     </tr>
                     <tr>
@@ -227,7 +227,7 @@ seo:
                     <tr>
                         <td data-label="Ingredients">Fira + Stop</td>
                         <td data-label="Crystal">Wellspring</td>
-                        <td data-label="Ability">Mine Square + Air Combo Plus</td>
+                        <td data-label="Ability"><a href="/mine-square">Mine Square</a> + Air Combo Plus</td>
                         <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Fira&cmd2=Stop&crystal=Wellspring">Try meld</a></td>
                     </tr>
                     <tr>
@@ -245,7 +245,7 @@ seo:
                     <tr>
                         <td data-label="Ingredients">Thundara + Fire Dash</td>
                         <td data-label="Crystal">Soothing</td>
-                        <td data-label="Ability">Thunder Surge + HP Boost</td>
+                        <td data-label="Ability"><a href="/thunder-surge">Thunder Surge</a> + HP Boost</td>
                         <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Thundara&cmd2=Fire%20Dash&crystal=Soothing">Try meld</a></td>
                     </tr>
                     <tr>
@@ -256,10 +256,62 @@ seo:
                     </tr>
                 </tbody>
             </table>
-            <p>Enchanted Dominion expands your command options with valuable crowd control abilities like Magnet, Thunder, and Mine Shield/Square. This is a great opportunity to start enhancing Thunder-based attacks, especially if you're planning to unlock Thunder Roll later. Use this world to pick up support abilities like Reload Boost for shorter cooldowns and Treasure Magnet to collect D-Link orbs more easily. While Abounding Crystals aren't available yet, focus on building up elemental damage and deck utility for smoother progression.</p>
+            <p>Enchanted Dominion expands your command options with valuable crowd control abilities like Magnet, Thunder, and <a href="/mine-shield">Mine Shield</a>/Square. This is a great opportunity to start enhancing Thunder-based attacks, especially if you're planning to unlock Thunder Roll later. Use this world to pick up support abilities like Reload Boost for shorter cooldowns and Treasure Magnet to collect D-Link orbs more easily. While Abounding Crystals aren't available yet, focus on building up elemental damage and deck utility for smoother progression.</p>
             <h2>Conclusion</h2>
             <p>Ventus starts with limited passive abilities, but focusing on elemental and combo-based damage early provides a strong advantage. By following this melding path, you can unlock essential survival abilities like <strong>Second Chance</strong> and <strong>Once More</strong> by the end of Castle of Dreams. Combined with HP Boosts and key offensive passives, this setup builds a balanced and powerful foundation for the mid-game. It’s one of the most effective early routes for Ventus in Kingdom Hearts Birth by Sleep.</p>
-            <a href="/?mode=simulator" class="btn highlight">Try the Fusion Simulator</a>
+            <h2 id="best-commands-next">Where to Go Next: Ventus's Best Commands</h2>
+<p>After the first three worlds, these are the melds worth planning around. Ventus is fortunate here: his two
+    signature commands both have guaranteed recipes.</p>
+<p>The melds earlier in this guide already cover <a href="/second-chance">Second Chance</a>, <a
+        href="/once-more">Once More</a> and <a href="/leaf-bracer">Leaf Bracer</a>, so there is no point
+    spending these crystals on them again. The picks below go after the next tier instead: combo extensions,
+    healing power, and faster command reloads. Every one of these commands can still give you a
+    survivability ability if you would rather have that, so check the individual guides before you meld.</p>
+<table>
+    <thead>
+        <tr><th>Command</th><th>Recipe</th><th>Odds</th><th>Crystal</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Command"><a href="/ars-arcanum">Ars Arcanum</a></td>
+            <td data-label="Recipe"><a href="/blitz">Blitz</a> + Aerial Slam</td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Wellspring for <strong>Air Combo Plus</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/salvation">Salvation</a></td>
+            <td data-label="Recipe">Wind Raid + <a href="/curaga">Curaga</a></td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Shimmering for <strong>Cure Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/time-splicer">Time Splicer</a></td>
+            <td data-label="Recipe">Aerial Slam + <a href="/stopga">Stopga</a></td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Fleeting for <strong>Reload Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/faith">Faith</a></td>
+            <td data-label="Recipe">Wind Raid + Break Time</td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Wellspring for <strong>Combo Plus</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/mega-flare">Mega Flare</a></td>
+            <td data-label="Recipe">Fission Firaga + Crawling Fire</td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Shimmering for <strong>Fire Boost</strong></td>
+        </tr>
+    </tbody>
+</table>
+<p>A few practical notes. <strong>Ars Arcanum lists nine recipes but only Blitz + Aerial Slam is
+        guaranteed</strong>; the other eight sit at 5 to 10% and are not worth the crystals. <strong>Salvation
+        and Faith both consume a Wind Raid</strong>, so make two if you want both. And Faith is the awkward
+    one: it needs a Break Time, which has no reliable meld recipe and is better found in chests or drops than
+    farmed.</p>
+<p>The full list, including the commands every character can build, is on the <a href="/best-commands">best
+        commands guide</a>.</p>
+<a href="/?mode=simulator" class="btn highlight">Try the Fusion Simulator</a>
         </div>
     </div>
 </section>

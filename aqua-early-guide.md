@@ -14,7 +14,7 @@ type: blogPost
                 "name": "What are the best early melds for Aqua in Kingdom Hearts Birth by Sleep?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Some of the best early melds for Aqua include Blizzaga with Second Chance, Thundaga with Once More, and Curaga with Defender. These commands provide essential survivability and magic efficiency."
+                    "text": "Some of the best early melds for Aqua include Blizzaga with Second Chance, Thundaga with Once More, and <a href="/curaga">Curaga</a> with Defender. These commands provide essential survivability and magic efficiency."
                 }
             },
             {
@@ -250,13 +250,13 @@ improve recovery in longer battles.
     <tr>
         <td data-label="Ingredients">Stopra + Stop</td>
         <td data-label="Crystal">Fleeting</td>
-        <td data-label="Ability">Stopga + Magic Haste</td>
+        <td data-label="Ability"><a href="/stopga">Stopga</a> + Magic Haste</td>
         <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Stopra&cmd2=Stop&crystal=Fleeting">Try meld</a></td>
     </tr>
     <tr>
         <td data-label="Ingredients">Confusion Strike + Fira</td>
         <td data-label="Crystal">Shimmering</td>
-        <td data-label="Ability">Fire Surge + Dark Screen</td>
+        <td data-label="Ability"><a href="/fire-surge">Fire Surge</a> + Dark Screen</td>
         <td data-label="Try it out"><a href="/?mode=simulator&cmd1=Confusion%20Strike&cmd2=Fire&crystal=Shimmering">Try meld</a>
         </td>
     </tr>
@@ -266,7 +266,7 @@ improve recovery in longer battles.
 In <strong>Enchanted Dominion</strong>, Aqua can unlock powerful crowd control and mobility commands
 like <strong>Stopga</strong>, <strong>Zero Graviga</strong>, and <strong>Aeroga</strong>, making it one
 of the best worlds for early spellcasting upgrades in <em>Kingdom Hearts Birth by Sleep</em>. You can
-also fuse <strong>Fire Surge</strong>, a key component for crafting <strong>Sonic Blade</strong>, and
+also fuse <strong>Fire Surge</strong>, a key component for crafting <strong><a href="/sonic-blade">Sonic Blade</a></strong>, and
 pair it with <strong>Dark Screen</strong> to add valuable defense for Aqua’s late-game challenges.
 </p>
 <h2>Conclusion</h2>
@@ -278,4 +278,60 @@ following this melding path across the first three worlds, you’ll build:</p>
 <li>Solid deck flexibility with reload speed and crowd control options</li>
 </ul>
 <p>With this foundation, Aqua becomes incredibly well-rounded for both bosses and mobs. Don’t forget to use
-your Fusion Simulator to double-check results before committing valuable crystals!</p><a href="/?mode=simulator" class="btn highlight">Try the Fusion Simulator</a>
+your Fusion Simulator to double-check results before committing valuable crystals!</p><h2 id="best-commands-next">Where to Go Next: Aqua's Best Commands</h2>
+<p>Once you are past the opening worlds, Aqua's melding opens up considerably. She has the deepest magic
+    options of the three, and most of her signature commands are guaranteed.</p>
+<p>You already have <a href="/second-chance">Second Chance</a>, <a href="/once-more">Once More</a> and <a
+        href="/leaf-bracer">Leaf Bracer</a> from the melds above, so the crystals below aim at the next tier:
+    elemental boosts to match Aqua's magic focus, combo extensions, and reload speed. Each command can still
+    give a survivability ability instead if you skipped one earlier.</p>
+<table>
+    <thead>
+        <tr><th>Command</th><th>Recipe</th><th>Odds</th><th>Crystal</th></tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Command"><a href="/seeker-mine">Seeker Mine</a></td>
+            <td data-label="Recipe"><a href="/mine-shield">Mine Shield</a> + <a href="/mine-square">Mine Square</a></td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Fleeting for <strong>Reload Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/triple-blizzaga">Triple Blizzaga</a></td>
+            <td data-label="Recipe">Blizzaga + Blizzaga</td>
+            <td data-label="Odds">100%</td>
+            <td data-label="Crystal">Shimmering for <strong>Blizzard Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/magic-hour">Magic Hour</a></td>
+            <td data-label="Recipe">Barrier Surge + Aeroga</td>
+            <td data-label="Odds">90%</td>
+            <td data-label="Crystal">Wellspring for <strong>Combo Plus</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/triple-firaga">Triple Firaga</a></td>
+            <td data-label="Recipe">Firaga + Firaga</td>
+            <td data-label="Odds">90%</td>
+            <td data-label="Crystal">Shimmering for <strong>Fire Boost</strong></td>
+        </tr>
+        <tr>
+            <td data-label="Command"><a href="/thundaga-shot">Thundaga Shot</a></td>
+            <td data-label="Recipe">Firaga + Thundaga</td>
+            <td data-label="Odds">85%</td>
+            <td data-label="Crystal">Fleeting for <strong>Magic Haste</strong></td>
+        </tr>
+    </tbody>
+</table>
+<p>Worth knowing: <strong>Triple Blizzaga feeds the Deep Freeze and Glacier chain</strong>, and because
+    Glacier needs a Triple Blizzaga <em>and</em> a Deep Freeze that itself consumed one, you will need two
+    Triple Blizzagas in total to get all the way there. The whole chain is guaranteed, so it is only a
+    question of stocking enough Blizzaga.</p>
+<p>A note on <a href="/thundaga-shot">Thundaga Shot</a>: all three of its recipes give <strong>Magic
+        Haste</strong> on a Fleeting Crystal, which is why that is the pick above and a good fit for a
+    magic-heavy Aqua deck. It is also the only command in this table that cannot give you Once More or Second
+    Chance at all, so if you did skip one of those earlier, use Seeker Mine or Triple Blizzaga instead.</p>
+<p>Aqua is also the only character who can make <a href="/renewal-block-barrier">Renewal Barrier</a>, which
+    is one of the cheapest routes to <a href="/exp-walker">EXP Walker</a>: Curaga + Barrier at 100%, with an
+    Abounding Crystal.</p>
+<p>The full list is on the <a href="/best-commands">best commands guide</a>.</p>
+<a href="/?mode=simulator" class="btn highlight">Try the Fusion Simulator</a>
