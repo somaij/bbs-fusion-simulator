@@ -2,7 +2,7 @@
 canonical_url: "https://khbbsmelding.com/once-more"
 layout: default
 title: "How to Get Once More in KH BBS – Meld Recipes for Terra, Ventus & Aqua"
-description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, and Aqua. Survive boss combos with 1 HP — includes Wellspring Crystal locations and early farming tips."
+description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, and Aqua. Survive boss combos with 1 HP. Includes Wellspring Crystal locations and early farming tips."
 ---
 
 <section id="why-content">
@@ -60,8 +60,8 @@ description: "Exact meld recipes to get Once More in KH BBS for Terra, Ventus, a
     </thead>
     <tbody>
         <tr>
-            <td data-label="Ingredients">Dark Haze + Sonic Blade</td>
-            <td data-label="Result">Ars Solum</td>
+            <td data-label="Ingredients">Dark Haze + <a href="/sonic-blade">Sonic Blade</a></td>
+            <td data-label="Result"><a href="/ars-solum">Ars Solum</a></td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Dark%20Haze&cmd2=Sonic%20Blade&crystal=Wellspring">Simulate</a></td>
         </tr>
         <tr>
@@ -84,15 +84,15 @@ get Once More permanently, even if you remove the command later. You'll be more 
 
 <h3>My Personal Strategy</h3>
 <p>
-    I always prioritize unlocking <a href="/second-chance"><strong>Second Chance</strong></a> first — it saves you from unlucky one-shots that early game bosses tend to do over combos. Then I immediately go for Once More.
+    I always prioritize unlocking <a href="/second-chance"><strong>Second Chance</strong></a> first, because it saves you from unlucky one-shots that early game bosses tend to do over combos. Then I immediately go for Once More.
     With both abilities equipped, I felt like the game finally became “fair.” You can take on bosses knowing that no single combo will rob you of a chance to fight back. In my eyes, both Second Chance and Once More are required abilities to take on the final bosses of the game.
 </p>
 
 <h2>Related Guides</h2>
 <ul>
-    <li><a href="/second-chance">How to Get Second Chance</a> — survive any single hit with 1 HP</li>
-    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
-    <li><a href="/exp-walker">How to Get EXP Walker</a> — level up just by walking around</li>
+    <li><a href="/second-chance">How to Get Second Chance</a>: survive any single hit with 1 HP</li>
+    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a>: cast Cure safely in the middle of combat</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a>: level up just by walking around</li>
 </ul>
 </div>
 </div>

@@ -10,11 +10,11 @@ seo:
 <div class="container">
 <div class="text">
 <h1>Best Commands in KH Re:coded – Top Synthesis Targets</h1>
-<p>The <strong>Command Matrix</strong> in Kingdom Hearts Re:coded is fully deterministic — every combination always produces the same result. That means the most powerful commands in the game are reachable through planning, not luck. This guide covers the top synthesis targets: what they do, why they're worth building, and the exact recipe chain to get there.</p>
+<p>The <strong>Command Matrix</strong> in Kingdom Hearts Re:coded is fully deterministic, so every combination always produces the same result. That means the most powerful commands in the game are reachable through planning, not luck. This guide covers the top synthesis targets: what they do, why they're worth building, and the exact recipe chain to get there.</p>
 <p>Most of the best commands are connected. Building Aeroga and Firaga opens up Wind Tracer, which feeds into Judgment Triad, Cyclone, and more. The ice and thunder chains produce Exo Spark and the Pursuit commands. Almost every synthesis step produces something you'll use again.</p>
 
-<h2>Curaga — The Healing Priority</h2>
-<p>Curaga is the strongest healing command in the game and an ingredient in multiple endgame synthesis paths. Make it as soon as you have Land Crash and Cura available — you will not regret spending the resources.</p>
+<h2>Curaga: The Healing Priority</h2>
+<p>Curaga is the strongest healing command in the game and an ingredient in multiple endgame synthesis paths. Make it as soon as you have Land Crash and Cura available. You will not regret spending the resources.</p>
 <table>
     <thead>
         <tr>
@@ -46,13 +46,13 @@ seo:
         </tr>
     </tbody>
 </table>
-<p><strong>Land Crash</strong> is a found command — it doesn't have a synthesis recipe, so you need to pick it up from drops or chests in later worlds. <strong>Fira</strong> is synthesized from Fire + Cure. Curaga comes up again as an ingredient in Chain Rave, so aim to make two copies once resources allow.</p>
+<p><strong>Land Crash</strong> is a found command, so it doesn't have a synthesis recipe, so you need to pick it up from drops or chests in later worlds. <strong>Fira</strong> is synthesized from Fire + Cure. Curaga comes up again as an ingredient in Chain Rave, so aim to make two copies once resources allow.</p>
 
 <div class="ad-wrapper-article">
     {% include adsense_in_article.html %}
 </div>
 
-<h2>Firaga — Core Fire Magic</h2>
+<h2>Firaga: Core Fire Magic</h2>
 <p>Firaga is a strong fire spell and a required ingredient for <strong>Wind Tracer</strong>, which feeds into Judgment Triad and Cyclone. Building Firaga early means you're already most of the way to the game's most powerful commands. You start the game with both <strong>Fire</strong> and <strong>Sliding Dash</strong> already in your deck, so the first step of this chain is available immediately.</p>
 <table>
     <thead>
@@ -80,9 +80,9 @@ seo:
         </tr>
     </tbody>
 </table>
-<p><strong>Air Spiral</strong> is a found command. You will need at least <strong>two Air Spirals</strong> in total — one for Heat Storm (this chain) and one for Wind Storm in the Aeroga chain below. Pick up extras whenever you see them.</p>
+<p><strong>Air Spiral</strong> is a found command. You will need at least <strong>two Air Spirals</strong> in total, one for Heat Storm (this chain) and one for Wind Storm in the Aeroga chain below. Pick up extras whenever you see them.</p>
 
-<h2>Aeroga — The Synthesis Cornerstone</h2>
+<h2>Aeroga: The Synthesis Cornerstone</h2>
 <p>Aeroga is a strong wind spell, but its real value is as an ingredient. It feeds directly into <strong>Wind Tracer</strong> and <strong>Chain Rave</strong>, making it central to the strongest physical and magic chains in the game. Build it as soon as Aero and Air Spiral are available.</p>
 <table>
     <thead>
@@ -115,10 +115,10 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>You will need <strong>two copies of Aeroga</strong> — one for Wind Tracer and one for Chain Rave. That means two full runs of this chain. Stock up on Aero and Air Spiral before starting.</p>
+<p>You will need <strong>two copies of Aeroga</strong>, one for Wind Tracer and one for Chain Rave. That means two full runs of this chain. Stock up on Aero and Air Spiral before starting.</p>
 
-<h2>Chain Rave — Best AoE Physical</h2>
-<p>Chain Rave is one of the most satisfying commands in Re:coded — a multi-hit physical AoE that clears groups quickly. Once you have Aeroga and Curaga, you can synthesize it directly. It is also a required ingredient for <strong>Triple Blizzaga</strong>, <strong>Triple Pursuit</strong>, and Blizzaga Pursuit.</p>
+<h2>Chain Rave: Best AoE Physical</h2>
+<p>Chain Rave is one of the most satisfying commands in Re:coded, a multi-hit physical AoE that clears groups quickly. Once you have Aeroga and Curaga, you can synthesize it directly. It is also a required ingredient for <strong>Triple Blizzaga</strong>, <strong>Triple Pursuit</strong>, and Blizzaga Pursuit.</p>
 <table>
     <thead>
         <tr>
@@ -135,10 +135,10 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>Chain Rave can also be made from any Raid command (Fire Raid, Thunder Raid, or Aero Raid) combined with Spark Dive — useful if you haven't built Aeroga yet. But Aeroga + Curaga is the simplest single recipe once you're further along the chain.</p>
+<p>Chain Rave can also be made from any Raid command (Fire Raid, Thunder Raid, or Aero Raid) combined with Spark Dive, which is useful if you haven't built Aeroga yet. But Aeroga + Curaga is the simplest single recipe once you're further along the chain.</p>
 
-<h2>Triple Magic — Triple Firaga and Triple Blizzaga</h2>
-<p>The Triple magic commands fire three projectiles at once, dealing heavy damage across a wide area. <strong>Triple Firaga</strong> is the easiest to reach — if you've already built Curaga and Firaga, you have both ingredients. <strong>Triple Blizzaga</strong> requires building up the ice chain first.</p>
+<h2>Triple Magic: Triple Firaga and Triple Blizzaga</h2>
+<p>The Triple magic commands fire three projectiles at once, dealing heavy damage across a wide area. <strong>Triple Firaga</strong> is the easiest to reach. If you've already built Curaga and Firaga, you have both ingredients. <strong>Triple Blizzaga</strong> requires building up the ice chain first.</p>
 
 <h3>Triple Firaga</h3>
 <table>
@@ -197,13 +197,13 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>You need <strong>two copies of Blizzara</strong> — one for Ice Dive and one for Blizzaga. The Blizzaga chain also feeds directly into Pursuit Magic below, so build it before moving on.</p>
+<p>You need <strong>two copies of Blizzara</strong>, one for Ice Dive and one for Blizzaga. The Blizzaga chain also feeds directly into Pursuit Magic below, so build it before moving on.</p>
 
 <div class="ad-wrapper-article">
     {% include adsense_in_article.html %}
 </div>
 
-<h2>Pursuit Magic — Blizzaga Pursuit and Triple Pursuit</h2>
+<h2>Pursuit Magic: Blizzaga Pursuit and Triple Pursuit</h2>
 <p>Pursuit commands fire homing projectiles that track enemies across the arena. They are among the best magic options for bosses since they connect even when the target is moving. Both are built from components you'll already have by this point.</p>
 
 <h3>Blizzaga Pursuit</h3>
@@ -241,9 +241,9 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>Both Pursuit commands share <strong>Muscle Strike</strong> as an ingredient. Since Muscle Strike also feeds into Judgment Triad, make sure you have enough copies before committing them here — you need at least two Muscle Strikes total if you want Blizzaga Pursuit, Triple Pursuit, and Judgment Triad.</p>
+<p>Both Pursuit commands share <strong>Muscle Strike</strong> as an ingredient. Since Muscle Strike also feeds into Judgment Triad, make sure you have enough copies before committing them here, since you need at least two Muscle Strikes total if you want Blizzaga Pursuit, Triple Pursuit, and Judgment Triad.</p>
 
-<h2>Exo Spark — Thunder and Ice Explosion</h2>
+<h2>Exo Spark: Thunder and Ice Explosion</h2>
 <p><strong>Exo Spark</strong> is a powerful magic command that deals heavy multi-element damage. It requires <strong>Triple Blizzaga</strong> (already built) plus <strong>Thundaga</strong>, so this section also covers the full thunder upgrade chain.</p>
 <table>
     <thead>
@@ -276,10 +276,10 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>Keep a spare <strong>Thundara and Thundaga</strong> before committing to Exo Spark — both are needed again for <strong>Pulse Tracer</strong> in the Cyclone chain below.</p>
+<p>Keep a spare <strong>Thundara and Thundaga</strong> before committing to Exo Spark, because both are needed again for <strong>Pulse Tracer</strong> in the Cyclone chain below.</p>
 
-<h2>Judgment Triad — Devastating Physical Finisher</h2>
-<p><strong>Judgment Triad</strong> is a devastating physical combo command — a wide, multi-hit finisher that deals excellent damage to groups. Build it as soon as Wind Tracer is available.</p>
+<h2>Judgment Triad: Devastating Physical Finisher</h2>
+<p><strong>Judgment Triad</strong> is a devastating physical combo command, a wide, multi-hit finisher that deals excellent damage to groups. Build it as soon as Wind Tracer is available.</p>
 <table>
     <thead>
         <tr>
@@ -311,9 +311,9 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>Note that you'll need <strong>Wind Tracer a second time</strong> for Cyclone below — so synthesize two copies before moving on. That means two each of Aeroga and Firaga.</p>
+<p>Note that you'll need <strong>Wind Tracer a second time</strong> for Cyclone below, so synthesize two copies before moving on. That means two each of Aeroga and Firaga.</p>
 
-<h2>Cyclone — Thunder and Wind Combined</h2>
+<h2>Cyclone: Thunder and Wind Combined</h2>
 <p><strong>Cyclone</strong> is a powerful magic combo command that merges wind and thunder in a single attack. With Thundaga from the Exo Spark chain and Wind Tracer from the Judgment Triad chain, you have everything you need.</p>
 <table>
     <thead>
@@ -336,16 +336,16 @@ seo:
         </tr>
     </tbody>
 </table>
-<p>Pulse Tracer needs both Thundara and Thundaga — keep spares of each from the Exo Spark chain before you use them up.</p>
+<p>Pulse Tracer needs both Thundara and Thundaga, so keep spares of each from the Exo Spark chain before you use them up.</p>
 
 <h2>What to Stock Up On</h2>
 <p>Before starting these synthesis chains, collect extras of the following found commands:</p>
 <ul>
-    <li><strong>Air Spiral</strong> — needed for Heat Storm (Firaga), Wind Storm (Aeroga), and Spark Storm (Thundaga). You need at least three.</li>
-    <li><strong>Land Crash</strong> — needed for Heat Dive (Curaga) and Muscle Strike (Judgment Triad). Collect extras whenever you find them.</li>
-    <li><strong>Aero</strong> — used multiple times in the Aeroga chain. Pick up as many as available.</li>
-    <li><strong>Cure</strong> — needed for Fira, Cura, Rising Strike, and Aerora paths. Always keep multiple in reserve.</li>
-    <li><strong>Thunder</strong> — needed for Thundara and Spark Storm. Keep extras before starting the Exo Spark chain.</li>
+    <li><strong>Air Spiral</strong>: needed for Heat Storm (Firaga), Wind Storm (Aeroga), and Spark Storm (Thundaga). You need at least three.</li>
+    <li><strong>Land Crash</strong>: needed for Heat Dive (Curaga) and Muscle Strike (Judgment Triad). Collect extras whenever you find them.</li>
+    <li><strong>Aero</strong>: used multiple times in the Aeroga chain. Pick up as many as available.</li>
+    <li><strong>Cure</strong>: needed for Fira, Cura, Rising Strike, and Aerora paths. Always keep multiple in reserve.</li>
+    <li><strong>Thunder</strong>: needed for Thundara and Spark Storm. Keep extras before starting the Exo Spark chain.</li>
 </ul>
 
 <p><strong>Want to verify any recipe?</strong> Use the <a href="/recoded">Re:coded Synthesis Calculator</a> to look up every combination.</p>

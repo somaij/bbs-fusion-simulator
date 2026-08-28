@@ -2,7 +2,7 @@
 canonical_url: "https://khbbsmelding.com/exp-walker"
 layout: default
 title: "KH BBS EXP Walker Guide – How to Unlock and Farm EXP Walker"
-description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqua. Gain EXP just by walking — level up without grinding. Includes early Shimmering Crystal farming tips."
+description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqua. Gain EXP just by walking, and level up without grinding. Includes early Shimmering Crystal farming tips."
 ---
 
 <section id="why-content">
@@ -51,8 +51,8 @@ description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqu
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Binding%20Strike&cmd2=Blizzaga&crystal=Abounding">Simulate</a></td>
           </tr>
           <tr>
-            <td data-label="Ingredients">Curaga + Block/Barrier</td>
-            <td data-label="Result">Renewal Block/Barrier (with EXP Walker)</td>
+            <td data-label="Ingredients"><a href="/curaga">Curaga</a> + Block/Barrier</td>
+            <td data-label="Result"><a href="/renewal-block-barrier">Renewal Block</a>/Barrier (with EXP Walker)</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Curaga&cmd2=Block&crystal=Abounding">Simulate</a></td>
           </tr>
         </tbody>
@@ -101,9 +101,9 @@ description: "Exact recipes to meld EXP Walker in KH BBS for Terra, Ventus & Aqu
       <p>On critical mode, the game can quickly become a cakewalk if you keep this on. What I like to do is enable Zero EXP until it feels like I'm doing chip damage, and then disable it. That way you can quickly level up when you need to but still keep it challenging.</p>
       <h2>Related Guides</h2>
       <ul>
-          <li><a href="/second-chance">How to Get Second Chance</a> — survive any single hit with 1 HP</li>
-          <li><a href="/once-more">How to Get Once More</a> — survive boss combos with 1 HP</li>
-          <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
+          <li><a href="/second-chance">How to Get Second Chance</a>: survive any single hit with 1 HP</li>
+          <li><a href="/once-more">How to Get Once More</a>: survive boss combos with 1 HP</li>
+          <li><a href="/leaf-bracer">How to Get Leaf Bracer</a>: cast Cure safely in the middle of combat</li>
       </ul>
     </div>
   </div>

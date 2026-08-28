@@ -59,7 +59,7 @@ seo:
             <p><strong>Kingdom Hearts: Birth by Sleep</strong> features one of the most unique and complex
                 Command
                 Melding and command synthesis systems in the entire Kingdom Hearts series. While this system allows <strong>Terra, Ventus, and Aqua</strong> to create powerful
-                new abilities and commands, it can also feel overwhelming — especially for new players or those
+                new abilities and commands, it can also feel overwhelming, especially for new players or those
                 aiming
                 for the best possible builds.</p>
         </div>
@@ -68,7 +68,7 @@ seo:
             <p>In the original game, melding two commands with a crystal produces a new command and adds a
                 passive
                 ability. The problem is: the game doesn’t tell you what you’ll get ahead of time unless you find
-                a recipe — meaning you’re
+                a recipe, meaning you’re
                 left guessing or constantly checking online resources.</p>
             <p>Most online guides, like the great resources at KH Wiki and Final Fantasy Kingdom, present this
                 information as <strong>giant spreadsheets</strong> or complicated tables. These are hard to use
@@ -80,16 +80,15 @@ seo:
             <ul>
                 <li><strong>Instant Fusion Simulator:</strong> Pick any two commands and a crystal to instantly
                     see
-                    the resulting command and attached ability — no guessing required.</li>
+                    the resulting command and attached ability, with no guessing required.</li>
                 <li><strong>Find Recipes Mode:</strong> Want to know how to make a specific command? Use this
                     mode
                     to see all valid recipes and their success odds.</li>
-                <li><strong>Character-specific Melding:</strong> Shows who can use what — Terra, Ventus, or Aqua
-                    —
+                <li><strong>Character-specific Melding:</strong> Shows who can use what, whether that’s Terra, Ventus, or Aqua,
                     so you don’t waste time on invalid combinations.</li>
                 <li><strong>Auto-Links from FAQs and Guides:</strong> Some pages link directly into the
                     simulator
-                    with commands and crystals pre-filled — speeding up your search even more.</li>
+                    with commands and crystals pre-filled, speeding up your search even more.</li>
             </ul>
         </div>
         <div class="ad-wrapper-article">
@@ -98,13 +97,13 @@ seo:
         <div class="faq">
             <h3>Why It's Better Than Spreadsheets or Wikis</h3>
             <ul>
-                <li><strong>No searching or scrolling:</strong> Get the result in seconds — no need to open
+                <li><strong>No searching or scrolling:</strong> Get the result in seconds, with no need to open
                     multiple
                     tabs or decode long tables.</li>
-                <li><strong>Mobile-friendly:</strong> Works perfectly on phones and tablets while you play —
+                <li><strong>Mobile-friendly:</strong> Works perfectly on phones and tablets while you play,
                     unlike
                     static spreadsheets.</li>
-                <li><strong>Prevents Mistakes:</strong> The tool filters out impossible command fusions — so you
+                <li><strong>Prevents Mistakes:</strong> The tool filters out impossible command fusions, so you
                     never pick an invalid recipe by accident.</li>
             </ul>
         </div>

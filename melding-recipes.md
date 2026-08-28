@@ -2,7 +2,7 @@
 canonical_url: "https://khbbsmelding.com/melding-recipes"
 layout: default
 title: "KH BBS Melding Recipes – Complete Command Reference for All Characters"
-description: "Full melding recipe list for Kingdom Hearts Birth by Sleep. Find the right ingredients and crystal for every key command and ability — for Terra, Ventus, and Aqua."
+description: "Full melding recipe list for Kingdom Hearts Birth by Sleep. Find the right ingredients and crystal for every key command and ability, for Terra, Ventus, and Aqua."
 seo:
   type: blogPost
 ---
@@ -12,10 +12,10 @@ seo:
 <div class="text">
 
 <h1>KH BBS Melding Recipes – Full Command Reference</h1>
-<p>A complete recipe reference for command melding in <strong>Kingdom Hearts: Birth by Sleep</strong>. Recipes are organized by crystal type — the crystal you add determines which passive ability the resulting command carries. Entries marked "All" work for Terra, Ventus, and Aqua. Use the <a href="/">Melding Calculator</a> to simulate any meld before spending ingredients.</p>
+<p>A complete recipe reference for command melding in <strong>Kingdom Hearts: Birth by Sleep</strong>. Recipes are organized by crystal type. The crystal you add determines which passive ability the resulting command carries. Entries marked "All" work for Terra, Ventus, and Aqua. Use the <a href="/">Melding Calculator</a> to simulate any meld before spending ingredients.</p>
 
 <h2>Pulsing Crystal Recipes</h2>
-<p>Pulsing Crystals drop from Bruiser-type Unversed as early as Enchanted Dominion. They grant <strong><a href="/leaf-bracer">Leaf Bracer</a></strong> and <strong><a href="/second-chance">Second Chance</a></strong> — two of the most important defensive abilities in the game.</p>
+<p>Pulsing Crystals drop from Bruiser-type Unversed as early as Enchanted Dominion. They grant <strong><a href="/leaf-bracer">Leaf Bracer</a></strong> and <strong><a href="/second-chance">Second Chance</a></strong>, two of the most important defensive abilities in the game.</p>
 
 <h3>Leaf Bracer</h3>
 <table>
@@ -47,28 +47,28 @@ seo:
         <tr>
             <td data-label="Ingredient 1">Fire Strike</td>
             <td data-label="Ingredient 2">Fira</td>
-            <td data-label="Result">Fire Surge</td>
+            <td data-label="Result"><a href="/fire-surge">Fire Surge</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Fire%20Strike&cmd2=Fira&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Stun Edge</td>
             <td data-label="Ingredient 2">Thundara</td>
-            <td data-label="Result">Thunder Surge</td>
+            <td data-label="Result"><a href="/thunder-surge">Thunder Surge</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Stun%20Edge&cmd2=Thundara&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Fira</td>
             <td data-label="Ingredient 2">Zero Gravity</td>
-            <td data-label="Result">Mine Shield</td>
+            <td data-label="Result"><a href="/mine-shield">Mine Shield</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Fira&cmd2=Zero%20Gravity&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Fira</td>
             <td data-label="Ingredient 2">Stop</td>
-            <td data-label="Result">Mine Square</td>
+            <td data-label="Result"><a href="/mine-square">Mine Square</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Fira&cmd2=Stop&crystal=Pulsing">Simulate</a></td>
         </tr>
@@ -108,23 +108,23 @@ seo:
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Zero%20Gravira&cmd2=Zero%20Gravira&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
-            <td data-label="Ingredient 1">Blitz</td>
+            <td data-label="Ingredient 1"><a href="/blitz">Blitz</a></td>
             <td data-label="Ingredient 2">Air Slide</td>
-            <td data-label="Result">Sonic Blade</td>
+            <td data-label="Result"><a href="/sonic-blade">Sonic Blade</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Blitz&cmd2=Air%20Slide&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Aerial Slam</td>
-            <td data-label="Ingredient 2">Stopga</td>
-            <td data-label="Result">Time Splicer</td>
+            <td data-label="Ingredient 2"><a href="/stopga">Stopga</a></td>
+            <td data-label="Result"><a href="/time-splicer">Time Splicer</a></td>
             <td data-label="Characters">Ventus, Aqua</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Aerial%20Slam&cmd2=Stopga&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Brutal Blast</td>
             <td data-label="Ingredient 2">Brutal Blast</td>
-            <td data-label="Result">Geo Impact (70%)</td>
+            <td data-label="Result"><a href="/geo-impact">Geo Impact</a> (70%)</td>
             <td data-label="Characters">Terra</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Brutal%20Blast&cmd2=Brutal%20Blast&crystal=Pulsing">Simulate</a></td>
         </tr>
@@ -178,21 +178,21 @@ seo:
         <tr>
             <td data-label="Ingredient 1">Fission Firaga</td>
             <td data-label="Ingredient 2">Crawling Fire</td>
-            <td data-label="Result">Mega Flare</td>
+            <td data-label="Result"><a href="/mega-flare">Mega Flare</a></td>
             <td data-label="Characters">All</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Fission%20Firaga&cmd2=Crawling%20Fire&crystal=Wellspring">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Mine Shield</td>
             <td data-label="Ingredient 2">Mine Square</td>
-            <td data-label="Result">Seeker Mine</td>
+            <td data-label="Result"><a href="/seeker-mine">Seeker Mine</a></td>
             <td data-label="Characters">Aqua</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Mine%20Shield&cmd2=Mine%20Square&crystal=Wellspring">Simulate</a></td>
         </tr>
         <tr>
             <td data-label="Ingredient 1">Geo Impact</td>
-            <td data-label="Ingredient 2">Quake</td>
-            <td data-label="Result">Meteor</td>
+            <td data-label="Ingredient 2"><a href="/quake">Quake</a></td>
+            <td data-label="Result"><a href="/meteor">Meteor</a></td>
             <td data-label="Characters">Terra</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Geo%20Impact&cmd2=Quake&crystal=Wellspring">Simulate</a></td>
         </tr>
@@ -205,7 +205,7 @@ seo:
 </div>
 
 <h2>Abounding Crystal Recipes</h2>
-<p>Abounding Crystals are rare — found in treasure chests in Deep Space and Neverland, or rarely from Mandrakes in Radiant Garden. They grant <strong><a href="/exp-walker">EXP Walker</a></strong> and EXP Chance.</p>
+<p>Abounding Crystals are rare, and turn up in treasure chests in Deep Space and Neverland, or rarely from Mandrakes in Radiant Garden. They grant <strong><a href="/exp-walker">EXP Walker</a></strong> and EXP Chance.</p>
 
 <table>
     <thead>
@@ -229,9 +229,9 @@ seo:
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Binding%20Strike&cmd2=Blizzaga&crystal=Abounding">Simulate</a></td>
         </tr>
         <tr>
-            <td data-label="Ingredient 1">Curaga</td>
+            <td data-label="Ingredient 1"><a href="/curaga">Curaga</a></td>
             <td data-label="Ingredient 2">Block</td>
-            <td data-label="Result">Renewal Block</td>
+            <td data-label="Result"><a href="/renewal-block-barrier">Renewal Block</a></td>
             <td data-label="Ability">EXP Walker</td>
             <td data-label="Characters">Terra, Ventus</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Curaga&cmd2=Block&crystal=Abounding">Simulate</a></td>
@@ -370,7 +370,7 @@ seo:
         <tr>
             <td data-label="Ingredient 1">Blitz</td>
             <td data-label="Ingredient 2">Zero Graviga</td>
-            <td data-label="Result">Magic Hour</td>
+            <td data-label="Result"><a href="/magic-hour">Magic Hour</a></td>
             <td data-label="Notes">Aqua only</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Blitz&cmd2=Zero%20Graviga">Simulate</a></td>
         </tr>
@@ -397,12 +397,12 @@ seo:
 
 <h2>Related Guides</h2>
 <ul>
-    <li><a href="/second-chance">How to Get Second Chance</a> — detailed guide with early farming tips</li>
-    <li><a href="/once-more">How to Get Once More</a> — Wellspring Crystal locations and recipes</li>
-    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — early Pulsing Crystal recipes</li>
-    <li><a href="/exp-walker">How to Get EXP Walker</a> — Abounding Crystal locations</li>
-    <li><a href="/best-commands">Most Popular Commands</a> — the highest-impact melds with full recipe chains</li>
-    <li><a href="/beginners-guide">Beginner's Melding Guide</a> — how crystals and abilities work</li>
+    <li><a href="/second-chance">How to Get Second Chance</a>: detailed guide with early farming tips</li>
+    <li><a href="/once-more">How to Get Once More</a>: Wellspring Crystal locations and recipes</li>
+    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a>: early Pulsing Crystal recipes</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a>: Abounding Crystal locations</li>
+    <li><a href="/best-commands">Most Popular Commands</a>: the highest-impact melds with full recipe chains</li>
+    <li><a href="/beginners-guide">Beginner's Melding Guide</a>: how crystals and abilities work</li>
 </ul>
 
 </div>

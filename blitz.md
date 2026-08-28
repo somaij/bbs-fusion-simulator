@@ -12,8 +12,7 @@ seo:
 <h1>How to Get Blitz in Kingdom Hearts Birth by Sleep</h1>
 <p>Blitz is one of those commands that quietly becomes way more useful than you’d expect. At first glance,
     it’s just a physical multi-hit move, but once you start digging into command melding, you’ll find that
-    Blitz is a core ingredient in some of the strongest commands in the game like Sonic Blade, Ars
-    Arcanum/Solum, Magic Hour, Meteor Crash and Triple Firaga/Blizzaga.</p>
+    Blitz is a core ingredient in some of the strongest commands in the game like <a href="/sonic-blade">Sonic Blade</a>, <a href="/ars-arcanum">Ars Arcanum</a>canum/Solum, <a href="/magic-hour">Magic Hour</a>, Meteor Crash and <a href="/triple-firaga">Triple Firaga</a>/Blizzaga.</p>
 <div class="faq">
     <h3>How to Meld Blitz (My Go-To Recipes)</h3>
     <p>There are a few reliable ways to create Blitz depending on your character:</p>
@@ -75,7 +74,7 @@ seo:
     <ul>
         <li>Sonic Blade (great against single targets)</li>
         <li>Meteor Crash (Terra’s heavy-hitter)</li>
-        <li>Triple Firaga / Triple Blizzaga (Aqua only)</li>
+        <li>Triple Firaga / <a href="/triple-blizzaga">Triple Blizzaga</a> (Aqua only)</li>
         <li>Ars Arcanum (Ventus' late-game staple)</li>
         <li>Magic Hour (Aqua only)</li>
     </ul>
@@ -83,13 +82,13 @@ seo:
 </div>
 
 <h3>Want to Test Your Melding Path?</h3>
-<p>If you're not sure which recipe to use — or want to avoid wasting rare crystals — head over to the <a
+<p>If you're not sure which recipe to use, or want to avoid wasting rare crystals, head over to the <a
         href="/">Command Melding Simulator</a> on this site. You can preview which command and ability
     you'll get before you commit to a meld.</p>
 
 <p>If you're playing Kingdom Hearts: Birth by Sleep and you're building a fast, physical deck or prepping
     for late-game finishers, Blitz is 100% worth crafting early. It’s one of the most flexible commands in
-    the game — and if you plan ahead with the right crystals, it’ll pay off in a big way.</p>
+    the game, and if you plan ahead with the right crystals, it’ll pay off in a big way.</p>
 </div>
 </div>
 </section>

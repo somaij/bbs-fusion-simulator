@@ -66,11 +66,11 @@ seo:
 <div class="text">
 <h1>Kingdom Hearts Birth by Sleep: Beginner’s Guide to Command Melding</h1>
 
-<p>New to <strong>Kingdom Hearts: Birth by Sleep</strong>? One of the most important systems to master early on is Command Melding — a feature that lets you combine two commands with a crystal to create stronger abilities and unlock powerful passive effects. This guide will walk you through the basics of melding, why it matters, and how to make the best choices when starting out.</p>
+<p>New to <strong>Kingdom Hearts: Birth by Sleep</strong>? One of the most important systems to master early on is Command Melding, a feature that lets you combine two commands with a crystal to create stronger abilities and unlock powerful passive effects. This guide will walk you through the basics of melding, why it matters, and how to make the best choices when starting out.</p>
 
 <div class="faq">
 <h3>What is Command Melding?</h3>
-<p>Command Melding allows you to fuse two battle commands (like Blizzard or Stun Edge) to create a brand-new command that’s stronger or completely different. When you add a crystal to the mix, the resulting command will also carry a passive ability — such as Combo Plus, Second Chance, or Leaf Bracer — which can give you a major advantage in battle.</p>
+<p>Command Melding allows you to fuse two battle commands (like Blizzard or Stun Edge) to create a brand-new command that’s stronger or completely different. When you add a crystal to the mix, the resulting command will also carry a passive ability, such as Combo Plus, Second Chance, or Leaf Bracer, which can give you a major advantage in battle.</p>
 </div>
 
 <div class="faq">
@@ -97,7 +97,7 @@ seo:
 </div>
 <div class="faq">
 <h3>Best Abilities to Get Early (For Any Character)</h3>
-<p>Here are some of the most useful abilities beginners should prioritize — no matter which character you play:</p>
+<p>Here are some of the most useful abilities beginners should prioritize, no matter which character you play:</p>
 
 <table>
 <thead>

@@ -2,7 +2,7 @@
 canonical_url: "https://khbbsmelding.com/second-chance"
 layout: default
 title: "How to Get Second Chance in Kingdom Hearts: Birth by Sleep"
-description: "Get Second Chance early in KH BBS — exact meld recipes for Terra, Ventus & Aqua. Survive any hit with 1 HP on Proud and Critical mode."
+description: "Get Second Chance early in KH BBS with exact meld recipes for Terra, Ventus & Aqua. Survive any hit with 1 HP on Proud and Critical mode."
 ---
 
 <section id="why-content">
@@ -14,7 +14,7 @@ description: "Get Second Chance early in KH BBS — exact meld recipes for Terra
 
 <h3>Why Second Chance is Essential</h3>
 
-<p>When I first played through Birth by Sleep, I kept hitting a wall with certain bosses — no matter how much I leveled, I’d lose all my HP in one chain of attacks. Once I unlocked Second Chance, the game felt completely different. It’s the kind of safety net you don’t want to play without.</p>
+<p>When I first played through Birth by Sleep, I kept hitting a wall with certain bosses. No matter how much I leveled, I’d lose all my HP in one chain of attacks. Once I unlocked Second Chance, the game felt completely different. It’s the kind of safety net you don’t want to play without.</p>
 
 <h3>The Difference between Second Chance and Once More</h3>
 
@@ -66,17 +66,17 @@ description: "Get Second Chance early in KH BBS — exact meld recipes for Terra
     </thead>
     <tbody>
         <tr>
-            <td data-label="Ingredients">Sonic Blade + Stopga</td>
-            <td data-label="Result">Ars Solum</td>
+            <td data-label="Ingredients"><a href="/sonic-blade">Sonic Blade</a> + <a href="/stopga">Stopga</a></td>
+            <td data-label="Result"><a href="/ars-solum">Ars Solum</a></td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Sonic%20Blade&cmd2=Stopga&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
-            <td data-label="Ingredients">Blitz + Aerial Slam</td>
+            <td data-label="Ingredients"><a href="/blitz">Blitz</a> + Aerial Slam</td>
             <td data-label="Result">Ars Arcanium</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Blitz&cmd2=Aerial%20Slam&crystal=Pulsing">Simulate</a></td>
         </tr>
         <tr>
-            <td data-label="Ingredients">Blizzaga + Mine Shield</td>
+            <td data-label="Ingredients">Blizzaga + <a href="/mine-shield">Mine Shield</a></td>
             <td data-label="Result">Ice Barrage</td>
             <td data-label="Try it"><a href="/?mode=simulator&cmd1=Blizzaga&cmd2=Mine%20Shield&crystal=Pulsing">Simulate</a></td>
         </tr>
@@ -101,9 +101,9 @@ obtain Second Chance permanently, even if you remove the command later. You'll b
 <p>Don’t wait too long to make this ability. Second Chance and <a href="/once-more">Once More</a> together form the backbone of survival in Birth by Sleep. Once you have them, you’ll feel much more confident experimenting with offensive melds instead of worrying about getting wiped instantly.</p>
 <h2>Related Guides</h2>
 <ul>
-    <li><a href="/once-more">How to Get Once More</a> — survive boss combos with 1 HP</li>
-    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a> — cast Cure safely in the middle of combat</li>
-    <li><a href="/exp-walker">How to Get EXP Walker</a> — level up just by walking around</li>
+    <li><a href="/once-more">How to Get Once More</a>: survive boss combos with 1 HP</li>
+    <li><a href="/leaf-bracer">How to Get Leaf Bracer</a>: cast Cure safely in the middle of combat</li>
+    <li><a href="/exp-walker">How to Get EXP Walker</a>: level up just by walking around</li>
 </ul>
 </div>
 </div>
