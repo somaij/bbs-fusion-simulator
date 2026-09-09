@@ -15,7 +15,7 @@
 {% seo %}
 </head>
 
-  <body>
+  <body class="recoded-page">
 <nav>
         <div class="logo"><a href="/recoded" role="logo">Re:coded Synthesis Assistant</a></div>
         <div class="links">
@@ -60,21 +60,34 @@
                     <div class="ad-wrapper-responsive">
           {% include adsense_above_footer_multiplex.html %}
     </div>
-                <div class="footer-nav">
-                <a href="/recoded">Re:coded Calculator</a>
-                <a href="/recoded-early-guide">Early Guide</a>
-                <a href="/recoded-best-commands">Best Commands</a>
-                <a href="/">BBS Meld Simulator</a>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <span class="footer-col-title">Tools</span>
+                    <a href="/recoded">Re:coded Synthesis Assistant</a>
+                    <a href="/">BBS Melding Calculator</a>
+                    <a href="/faqs">FAQs</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">Re:coded</span>
+                    <a href="/recoded-early-guide">Early Guide</a>
+                    <a href="/recoded-best-commands">Best Commands</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">BBS Guides</span>
+                    <a href="/beginners-guide">Beginner’s Guide</a>
+                    <a href="/terra-early-guide">Terra's Start</a>
+                    <a href="/ventus-early-guide">Ven's Start</a>
+                    <a href="/aqua-early-guide">Aqua's Start</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">BBS Commands</span>
+                    <a href="/best-commands">Best Commands</a>
+                    <a href="/crystals">Crystals &amp; Abilities</a>
+                    <a href="/melding-recipes">All Melding Recipes</a>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
-                Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
-                logos, images, and other copyrighted materials displayed on this website are the property of their
-                respective owners.</p>
-            <a href="/privacy">Privacy Policy</a> |
-            <a href="/terms">Terms of Use</a>
-        </div>
+        {% include footer_legal.html %}
     </footer>
     <div id="cookie-banner">
         <div class="container">

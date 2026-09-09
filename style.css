@@ -972,26 +972,46 @@ footer a {
     font-size: 0.6rem;
 }
 
-footer .footer-nav {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+footer .footer-cols {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    text-align: left;
     padding-bottom: 2rem;
     margin-bottom: 2rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-footer .footer-nav a {
-    font-size: 1rem;
+footer .footer-col-title {
+    display: block;
+    font-family: "KHGummi", "KHMenu", Arial, sans-serif;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    text-shadow: var(--title-text-shadow);
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+footer .footer-col a {
+    display: block;
+    font-size: 0.85rem;
     color: var(--bg-yellow);
     text-decoration: none;
+    margin-bottom: 0.5rem;
     transition: 250ms all ease;
 }
 
-footer .footer-nav a:hover {
+footer .footer-col a:hover {
     color: #FFF;
     text-decoration: underline;
+}
+
+/* two columns is the floor: a single column makes the footer very long on phones */
+@media screen and (max-width: 820px) {
+    footer .footer-cols {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
 }
 
 #cookie-banner {
@@ -1383,11 +1403,6 @@ footer .footer-nav a:hover {
         padding-left: 1rem;
     }
 
-    .footer-nav {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
     #meld-menu .content::after {
         height: 15px;
         width: 15px;
@@ -1398,31 +1413,34 @@ footer .footer-nav a:hover {
     }
 }
 
-/* Re:coded calculator layout */
-#commands-wrapper { flex-direction: column; gap: 0; }
-#meld-menu, #command-list-wrapper { width: 100%; }
+/* Re:coded calculator layout. Scoped to .recoded-page (set on the body in
+   _layouts/recoded.html): these stack the calculator into one column, which is
+   right for Re:coded but must not reach the two-column BBS calculator on /. */
+.recoded-page #commands-wrapper { flex-direction: column; gap: 0; }
+.recoded-page #meld-menu, .recoded-page #command-list-wrapper { width: 100%; }
 
-#meld-menu::before {
+.recoded-page #meld-menu::before {
     clip-path: polygon(0% 0%, 34% 0%, 39% 48px, 100% 48px, 100% 100%, 38% 100%, 26% calc(100% - 48px), 0% calc(100% - 48px), 0% 0%);
     border-radius: 0;
 }
 
-#meld-menu .content { padding: 1rem 2rem 5rem; }
-#meld-menu h2 { margin-bottom: 1.5rem; }
+.recoded-page #meld-menu .content { padding: 1rem 2rem 5rem; }
+.recoded-page #meld-menu h2 { margin-bottom: 1.5rem; }
 
-#meld-menu .content::after {
+.recoded-page #meld-menu .content::after {
     top: unset; bottom: 1.5rem;
     right: unset; left: 50%;
     transform: translateX(-50%) rotate(90deg);
 }
 
-#command-list-wrapper {
+.recoded-page #command-list-wrapper {
     clip-path: polygon(34% 0%, 39% 48px, 100% 48px, 100% 100%, 38% 100%, 26% calc(100% - 48px), 0% calc(100% - 48px), 0% 0%);
     border-radius: 0;
     margin-top: -3rem;
     min-height: auto;
 }
 
+/* only emitted by scripts/recoded-calculator.js, so these need no scoping */
 .command-description {
     
     background-color: var(--bg);
@@ -1463,5 +1481,84 @@ footer .footer-nav a:hover {
 
     #meld-menu .content {
         padding: 1rem 1rem 4rem;
+    }
+}
+.hub-links {
+    margin: 4rem 0 2rem;
+}
+
+.hub-links h2 {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.hub-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.hub-card {
+    display: block;
+    padding: 2rem;
+    color: #FFF;
+    text-decoration: none;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(4, 1, 161, 0.75) 0%, rgba(2, 1, 87, 0.75) 100%);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), inset 2px 3px 2px rgba(255, 255, 255, 0.2);
+    transition: 250ms all ease;
+}
+
+.hub-card:hover {
+    border-color: var(--deep-red);
+    background: linear-gradient(0deg, rgba(154, 1, 2, 1) 0%, rgba(126, 2, 0, 1) 100%);
+}
+
+.hub-card h3 {
+    font-family: "KHGummi", "KHMenu", Arial, sans-serif;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    text-shadow: var(--title-text-shadow);
+    margin: 0 0 1rem;
+}
+
+.hub-card p {
+    color: #eee;
+    margin: 0 0 1rem;
+}
+
+.hub-card-cta {
+    color: var(--bg-yellow);
+    transition: 250ms all ease;
+}
+
+.hub-card:hover .hub-card-cta {
+    color: #FFF;
+}
+
+.hub-cta {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.hub-cta p {
+    color: #eee;
+    margin: 0 0 1.25rem;
+}
+
+/* the content column is squeezed between the two ad rails until 820px, so the
+   cards stack rather than reflow into a stretched odd one out */
+@media screen and (max-width: 1150px) {
+    .hub-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .hub-card {
+        padding: 1.5rem;
     }
 }

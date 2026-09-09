@@ -67,23 +67,38 @@
                     <div class="ad-wrapper-responsive">
           {% include adsense_above_footer_multiplex.html %}
     </div>
-                <div class="footer-nav">
-                <a href="/faqs">FAQs</a>
-                <a href="/recoded">Re:coded Synthesis Assistant</a>
-                <a href="/beginners-guide">Beginner’s Guide</a>
-                <a href="/terra-early-guide">Terra's Early Guide</a>
-                <a href="/ventus-early-guide">Ven's Early Guide</a>
-                <a href="/aqua-early-guide">Aqua's Early Guide</a>
+            <div class="footer-cols">
+                <div class="footer-col">
+                    <span class="footer-col-title">Tools</span>
+                    <a href="/">BBS Melding Calculator</a>
+                    <a href="/recoded">Re:coded Synthesis Assistant</a>
+                    <a href="/faqs">FAQs</a>
+                    <a href="/why">Why This Tool</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">Guides</span>
+                    <a href="/beginners-guide">Beginner’s Guide</a>
+                    <a href="/terra-early-guide">Terra's Start</a>
+                    <a href="/ventus-early-guide">Ven's Start</a>
+                    <a href="/aqua-early-guide">Aqua's Start</a>
+                    <a href="/recoded-early-guide">Re:coded Early Guide</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">References</span>
+                    <a href="/best-commands">Best Commands</a>
+                    <a href="/crystals">Crystals Explained</a>
+                    <a href="/melding-recipes">Important Ability Recipes</a>
+                </div>
+                <div class="footer-col">
+                    <span class="footer-col-title">Key Abilities</span>
+                    <a href="/second-chance">Second Chance</a>
+                    <a href="/once-more">Once More</a>
+                    <a href="/exp-walker">EXP Walker</a>
+                    <a href="/leaf-bracer">Leaf Bracer</a>
+                </div>
             </div>
         </div>
-        <div class="container">
-            <p>This website is a fan-made project and is not affiliated with, endorsed by, or sponsored by Square Enix,
-                Disney, or any other official holders of Kingdom Hearts intellectual property. All characters, names,
-                logos, images, and other copyrighted materials displayed on this website are the property of their
-                respective owners.</p>
-            <a href="/privacy">Privacy Policy</a> |
-            <a href="/terms">Terms of Use</a>
-        </div>
+        {% include footer_legal.html %}
     </footer>
     <div id="cookie-banner">
         <div class="container">

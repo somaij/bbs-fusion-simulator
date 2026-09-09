@@ -142,4 +142,37 @@ Let's D-Link and help you find the commands you want to meld.
 </main>
 </div>
 
+
+<div class="container">
+<div class="ad-wrapper-article">
+    {% include adsense_in_article.html %}
+</div>
+</div>
+
+<div class="container">
+<section class="hub-links">
+<h2>Plan the Rest of Your Build</h2>
+<div class="hub-grid">
+<a class="hub-card" href="/beginners-guide">
+<h3>Beginner’s Guide</h3>
+<p>New to melding? Start here for how crystals work, which abilities to chase first, and the recipes worth making in your opening hours.</p>
+<span class="hub-card-cta">Learn the basics</span>
+</a>
+<a class="hub-card" href="/best-commands">
+<h3>Best Commands</h3>
+<p>The commands worth planning your melds around, each with the recipe to actually use, the crystal to bring, and a link to its full guide.</p>
+<span class="hub-card-cta">Browse the command index</span>
+</a>
+<a class="hub-card" href="/crystals">
+<h3>Crystals &amp; Abilities</h3>
+<p>All 7 crystal types, every ability each one can grant, and where to farm them once you know which one you need.</p>
+<span class="hub-card-cta">Read the crystal guide</span>
+</a>
+</div>
+<div class="hub-cta">
+<p>Playing Kingdom Hearts Re:coded too? Its command synthesis works differently, so it has a calculator of its own.</p>
+<a class="btn highlight" href="/recoded">Open the Re:coded Synthesis Assistant</a>
+</div>
+</section>
+</div>
 <script src="{{ site.baseurl }}/scripts/calculator.js"></script>
