@@ -1,5 +1,6 @@
 name: Kingdom Hearts Birth by Sleep Melding Calculator
 url: https://khbbsmelding.com
+permalink: /:title
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
