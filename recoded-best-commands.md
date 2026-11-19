@@ -225,6 +225,7 @@ seo:
 </table>
 
 <h3>Triple Pursuit</h3>
+<p>Triple Pursuit has four recipes. See the <a href="/recoded-triple-pursuit">Triple Pursuit guide</a> for the others.</p>
 <table>
     <thead>
         <tr>
@@ -244,7 +245,7 @@ seo:
 <p>Both Pursuit commands share <strong>Muscle Strike</strong> as an ingredient. Since Muscle Strike also feeds into Judgment Triad, make sure you have enough copies before committing them here, since you need at least two Muscle Strikes total if you want Blizzaga Pursuit, Triple Pursuit, and Judgment Triad.</p>
 
 <h2>Exo Spark: Thunder and Ice Explosion</h2>
-<p><strong>Exo Spark</strong> is a powerful magic command that deals heavy multi-element damage. It requires <strong>Triple Blizzaga</strong> (already built) plus <strong>Thundaga</strong>, so this section also covers the full thunder upgrade chain.</p>
+<p><strong>Exo Spark</strong> is a powerful magic command that deals heavy multi-element damage. It requires <strong>Triple Blizzaga</strong> (already built) plus <strong>Thundaga</strong>, so this section also covers the full thunder upgrade chain. There is a dedicated <a href="/recoded-exo-spark">Exo Spark guide</a> with a shorter Triple Blizzaga route.</p>
 <table>
     <thead>
         <tr>
@@ -279,7 +280,7 @@ seo:
 <p>Keep a spare <strong>Thundara and Thundaga</strong> before committing to Exo Spark, because both are needed again for <strong>Pulse Tracer</strong> in the Cyclone chain below.</p>
 
 <h2>Judgment Triad: Devastating Physical Finisher</h2>
-<p><strong>Judgment Triad</strong> is a devastating physical combo command, a wide, multi-hit finisher that deals excellent damage to groups. Build it as soon as Wind Tracer is available.</p>
+<p><strong>Judgment Triad</strong> is a devastating physical combo command, a wide, multi-hit finisher that deals excellent damage to groups. Build it as soon as Wind Tracer is available. Every route is on the <a href="/recoded-judgment-triad">Judgment Triad guide</a>.</p>
 <table>
     <thead>
         <tr>
@@ -337,6 +338,19 @@ seo:
     </tbody>
 </table>
 <p>Pulse Tracer needs both Thundara and Thundaga, so keep spares of each from the Exo Spark chain before you use them up.</p>
+
+<h2>Individual Command Guides</h2>
+<p>These commands have their own pages with every recipe, a step-by-step build path and what each one is used for:</p>
+<ul>
+    <li><a href="/recoded-judgment-triad">Judgment Triad</a></li>
+    <li><a href="/recoded-wind-tracer">Wind Tracer</a></li>
+    <li><a href="/recoded-tornado-tracer">Tornado Tracer</a></li>
+    <li><a href="/recoded-triple-pursuit">Triple Pursuit</a></li>
+    <li><a href="/recoded-triple-burst">Triple Burst</a></li>
+    <li><a href="/recoded-exo-spark">Exo Spark</a></li>
+    <li><a href="/recoded-quake">Quake</a></li>
+    <li><a href="/recoded-eruption">Eruption</a></li>
+</ul>
 
 <h2>What to Stock Up On</h2>
 <p>Before starting these synthesis chains, collect extras of the following found commands:</p>

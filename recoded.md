@@ -97,6 +97,52 @@ description: "Find every command synthesis recipe in Kingdom Hearts Re:coded. Lo
 </section>
 </main>
 
+<section class="hub-links">
+<h2>Command Guides</h2>
+<div class="hub-grid">
+<a class="hub-card" href="/recoded-judgment-triad">
+<h3>Judgment Triad</h3>
+<p>Wind Tracer + Muscle Strike, with every route to both ingredients.</p>
+<span class="hub-card-cta">Build it</span>
+</a>
+<a class="hub-card" href="/recoded-wind-tracer">
+<h3>Wind Tracer</h3>
+<p>Four recipes, and the hub for five other commands.</p>
+<span class="hub-card-cta">See the recipes</span>
+</a>
+<a class="hub-card" href="/recoded-tornado-tracer">
+<h3>Tornado Tracer</h3>
+<p>Five recipes compared, plus what it goes on to make.</p>
+<span class="hub-card-cta">See the recipes</span>
+</a>
+<a class="hub-card" href="/recoded-triple-pursuit">
+<h3>Triple Pursuit</h3>
+<p>Four recipes, including a route that skips Blizzaga entirely.</p>
+<span class="hub-card-cta">See the recipes</span>
+</a>
+<a class="hub-card" href="/recoded-triple-burst">
+<h3>Triple Burst</h3>
+<p>A four-step route from Fire and Strike Raid.</p>
+<span class="hub-card-cta">Build it</span>
+</a>
+<a class="hub-card" href="/recoded-exo-spark">
+<h3>Exo Spark</h3>
+<p>Triple Blizzaga + Thundaga, with both halves built step by step.</p>
+<span class="hub-card-cta">Build it</span>
+</a>
+<a class="hub-card" href="/recoded-quake">
+<h3>Quake</h3>
+<p>The longest chain here, laid out with a full shopping list.</p>
+<span class="hub-card-cta">Plan the chain</span>
+</a>
+<a class="hub-card" href="/recoded-eruption">
+<h3>Eruption</h3>
+<p>Magnet Grab + Rising Rush, in five syntheses.</p>
+<span class="hub-card-cta">Build it</span>
+</a>
+</div>
+</section>
+
 <div class="text" style="margin-top: 2rem; font-size: 0.8rem; opacity: 0.5;">
 <p>Also playing <em>Birth by Sleep</em>? Try the <a href="/">BBS Melding Calculator</a>.</p>
 </div>
